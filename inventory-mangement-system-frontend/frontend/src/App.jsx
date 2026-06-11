@@ -11,23 +11,19 @@ import Suppliers from './pages/Suppliers'
 import Reports from './pages/Reports'
 import NotFound from './pages/NotFound'
 
-const ProtectedRoute = ({ children }) => {
-  return children
-}
-
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/login" element={<Navigate to="/dashboard" />} />
+        <Route path="/login" element={<Login />} />
         
-        <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
-        <Route path="/products" element={<ProtectedRoute><Products /></ProtectedRoute>} />
-        <Route path="/inventory" element={<ProtectedRoute><Inventory /></ProtectedRoute>} />
-        <Route path="/orders" element={<ProtectedRoute><Orders /></ProtectedRoute>} />
-        <Route path="/purchase-orders" element={<ProtectedRoute><PurchaseOrders /></ProtectedRoute>} />
-        <Route path="/suppliers" element={<ProtectedRoute><Suppliers /></ProtectedRoute>} />
-        <Route path="/reports" element={<ProtectedRoute><Reports /></ProtectedRoute>} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/inventory" element={<Inventory />} />
+        <Route path="/orders" element={<Orders />} />
+        <Route path="/purchase-orders" element={<PurchaseOrders />} />
+        <Route path="/suppliers" element={<Suppliers />} />
+        <Route path="/reports" element={<Reports />} />
         
         <Route path="/" element={<Navigate to="/dashboard" />} />
         <Route path="*" element={<NotFound />} />

@@ -18,19 +18,11 @@ export default function Login() {
     e.preventDefault()
     setError('')
     setLoading(true)
-
-    try {
-      const response = await api.post('/auth/login', { email, password })
-      const { token, user } = response.data
-
-      setToken(token)
-      setUser(user)
+    // Demo mode: auth is disabled, navigate directly
+    setTimeout(() => {
       navigate('/dashboard')
-    } catch (err) {
-      setError(err.response?.data?.message || 'Login failed. Please try again.')
-    } finally {
       setLoading(false)
-    }
+    }, 400)
   }
 
   return (

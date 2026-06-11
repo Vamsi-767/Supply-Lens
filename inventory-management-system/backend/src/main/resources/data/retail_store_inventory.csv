@@ -1,0 +1,2001 @@
+Store ID,Product Name,Stock Quantity,Reorder Point
+Market Square,Natural Bread,482,44
+Highway Branch,Fresh Frozen Pizza,497,21
+Riverside Shop,Classic Cream,130,6
+Garden District,Fresh Coconut Water,348,46
+Hilltop Store,Classic Samosa,318,28
+Mall Outlet,Natural Soup,490,32
+Riverside Shop,Homestyle Cashews,165,31
+Garden District,Organic Dates,117,47
+University Store,Fresh Frozen Pizza,24,40
+Market Square,Fresh Candy,356,46
+Airport Kiosk,Classic Dates,51,39
+Airport Kiosk,Natural Crackers,14,12
+Railway Station,Natural Whole Beans,379,17
+University Store,Natural Milk,215,42
+Mall Outlet,Classic Tea,69,46
+Tech Park,Classic Sugar,470,18
+Bus Terminal,Natural Coffee,308,20
+Hilltop Store,Natural Muffin,282,5
+Mall Outlet,Homestyle Syrup,344,15
+Highway Branch,Classic Waffle Mix,409,6
+Mall Outlet,Premium Gum,110,11
+Market Square,Homestyle Croissant,187,16
+Downtown Store,Organic Flour,321,14
+Airport Kiosk,Natural Whole Beans,50,28
+Highway Branch,Fresh Pepper,37,17
+Airport Kiosk,Classic Pasta,422,30
+Hilltop Store,Homestyle Pita Bread,351,18
+Hilltop Store,Organic Coriander,149,5
+Riverside Shop,Natural Raisins,90,10
+Highway Branch,Natural Cheese,23,16
+Airport Kiosk,Organic Chicken Nuggets,281,43
+Industrial Zone,Premium Ice Cream,247,16
+Downtown Store,Classic Soup,57,16
+Riverside Shop,Premium Jam,309,6
+Industrial Zone,Classic Coriander,485,20
+Mall Outlet,Homestyle Honey,395,34
+Bus Terminal,Homestyle Salt,163,30
+Industrial Zone,Natural Instant Coffee,357,49
+Downtown Store,Organic Flour,357,5
+Lakeview Branch,Organic Herbal Tea,335,42
+Hilltop Store,Homestyle Spring Rolls,383,10
+Bus Terminal,Premium Turmeric,444,26
+Tech Park,Classic Black Tea,108,16
+University Store,Classic Chocolate Bar,158,38
+Airport Kiosk,Fresh Green Tea,111,37
+Industrial Zone,Homestyle Peanut Butter,246,12
+Hospital Canteen,Classic Chapati,37,25
+University Store,Homestyle Mineral Water,252,24
+Railway Station,Natural Waffle Mix,59,12
+Bus Terminal,Homestyle Milk,29,50
+Lakeview Branch,Natural Cashews,231,5
+Highway Branch,Natural Butter,72,39
+Highway Branch,Classic French Fries,16,21
+Downtown Store,Organic Oats,319,20
+Hilltop Store,Homestyle Ground Coffee,368,38
+Downtown Store,Classic Peanuts,445,39
+Industrial Zone,Homestyle Black Tea,103,23
+Hilltop Store,Homestyle Coconut Water,290,46
+Mall Outlet,Fresh Tea,428,18
+Highway Branch,Organic Cream,194,47
+Hilltop Store,Organic Oil,12,28
+Tech Park,Natural Chapati,445,50
+Airport Kiosk,Fresh Tea,135,49
+Mall Outlet,Natural Popcorn,119,13
+Hilltop Store,Homestyle Whole Beans,386,27
+Highway Branch,Homestyle Dates,230,29
+Highway Branch,Premium Cornflakes,75,46
+Tech Park,Organic Vinegar,452,15
+Mall Outlet,Fresh Turmeric,57,11
+Railway Station,Premium Nutella,288,27
+Lakeview Branch,Fresh Tortilla,84,38
+Industrial Zone,Homestyle Fish Fillet,110,15
+Industrial Zone,Premium Gum,252,48
+Downtown Store,Organic Green Tea,383,10
+Railway Station,Premium Tortilla,258,12
+Mall Outlet,Classic Tea,221,34
+Garden District,Classic Cornflakes,379,39
+Railway Station,Homestyle Cream,69,43
+Downtown Store,Fresh Tea,163,11
+Hospital Canteen,Fresh Pasta,259,30
+Tech Park,Fresh Green Tea,386,15
+Railway Station,Premium Paratha,119,6
+Highway Branch,Fresh Butter,20,44
+Riverside Shop,Fresh Cake Mix,42,35
+Hilltop Store,Classic Biscuits,476,26
+Airport Kiosk,Homestyle Cheese,438,6
+University Store,Homestyle Cornflakes,6,28
+Garden District,Fresh Vinegar,39,43
+Market Square,Fresh French Fries,399,9
+Downtown Store,Homestyle Pickle,175,6
+Bus Terminal,Premium Salt,407,25
+Downtown Store,Natural Pepper,132,37
+Hospital Canteen,Fresh Flour,280,23
+Railway Station,Classic Pancake Mix,250,33
+Downtown Store,Fresh Popcorn,400,36
+Market Square,Fresh Mineral Water,223,33
+Riverside Shop,Natural Tea,25,5
+Market Square,Homestyle Noodles,371,19
+Downtown Store,Homestyle Biscuits,230,30
+University Store,Homestyle Sauce,150,7
+Hospital Canteen,Classic Peanut Butter,261,19
+Hospital Canteen,Premium Butter,367,5
+Mall Outlet,Natural Chips,462,15
+Bus Terminal,Fresh Salt,232,46
+Riverside Shop,Premium Paratha,124,13
+Market Square,Fresh Noodles,289,6
+Mall Outlet,Classic Cumin,353,40
+Industrial Zone,Fresh Peanuts,66,5
+Hospital Canteen,Organic Ground Coffee,46,15
+Mall Outlet,Classic Oats,98,21
+Downtown Store,Premium Ice Cream,458,17
+Tech Park,Premium Candy,273,6
+Mall Outlet,Classic Herbal Tea,316,43
+Downtown Store,Premium Soup,15,16
+University Store,Organic Vinegar,205,25
+Mall Outlet,Organic Cumin,345,35
+Hilltop Store,Homestyle Coconut Water,425,22
+Tech Park,Natural Flour,410,9
+Lakeview Branch,Organic Coconut Water,235,8
+Hilltop Store,Premium Almonds,139,39
+Hospital Canteen,Classic Noodles,439,33
+Riverside Shop,Premium French Fries,467,37
+Market Square,Premium Energy Drink,487,17
+Hilltop Store,Homestyle Pasta,45,15
+Industrial Zone,Classic Rice,406,21
+Tech Park,Organic Mayonnaise,229,47
+Riverside Shop,Organic Coffee,157,45
+University Store,Natural Crackers,350,10
+Airport Kiosk,Natural Gum,336,38
+Mall Outlet,Natural Ground Coffee,31,12
+Mall Outlet,Homestyle Samosa,485,22
+Tech Park,Classic Samosa,171,49
+Railway Station,Natural Noodles,407,49
+Railway Station,Premium Syrup,224,31
+Industrial Zone,Organic Candy,299,26
+Highway Branch,Fresh Cream,289,30
+Lakeview Branch,Organic Chips,49,35
+Downtown Store,Natural Iced Tea,78,11
+Bus Terminal,Premium Whole Beans,156,26
+Mall Outlet,Classic Syrup,460,35
+Tech Park,Premium Peanut Butter,388,7
+Highway Branch,Classic Black Tea,78,47
+Airport Kiosk,Natural Dates,2,21
+Lakeview Branch,Premium Honey,490,19
+University Store,Premium Croissant,258,15
+Bus Terminal,Premium Pancake Mix,336,13
+Hospital Canteen,Classic Almonds,97,14
+Downtown Store,Natural Waffle Mix,469,27
+Hilltop Store,Natural Fish Fillet,329,49
+Highway Branch,Natural Turmeric,137,38
+Riverside Shop,Natural Dates,242,20
+Hospital Canteen,Homestyle Cashews,257,36
+Highway Branch,Premium Brownie Mix,490,15
+Riverside Shop,Natural Croissant,448,17
+Airport Kiosk,Homestyle Bread,371,26
+Lakeview Branch,Natural Bread,456,48
+Hilltop Store,Organic Cheese,83,49
+Industrial Zone,Fresh Iced Tea,15,44
+Airport Kiosk,Natural Instant Coffee,257,30
+Hilltop Store,Premium Whole Beans,100,50
+Riverside Shop,Classic Yogurt,270,24
+Garden District,Premium Candy,146,39
+University Store,Fresh Whole Beans,69,48
+Bus Terminal,Fresh Energy Drink,299,40
+Airport Kiosk,Premium Flour,370,30
+Garden District,Homestyle Soup,177,13
+Lakeview Branch,Fresh Cashews,308,9
+Market Square,Homestyle Ground Coffee,283,31
+Hilltop Store,Premium Muffin,207,15
+Garden District,Organic Nutella,242,20
+Hospital Canteen,Classic Raisins,115,20
+Tech Park,Fresh Nutella,458,5
+Railway Station,Homestyle Rice,80,8
+Tech Park,Organic Herbal Tea,210,32
+Airport Kiosk,Fresh Coconut Water,138,8
+Mall Outlet,Fresh Instant Coffee,353,13
+Mall Outlet,Premium Cinnamon,203,49
+Airport Kiosk,Fresh Iced Tea,451,49
+Hospital Canteen,Fresh Juice,497,31
+Airport Kiosk,Premium Coconut Water,87,38
+Market Square,Premium Instant Coffee,93,18
+Airport Kiosk,Premium Soup,235,7
+University Store,Fresh Fish Fillet,136,28
+Hospital Canteen,Classic Yogurt,366,12
+Lakeview Branch,Classic Spring Rolls,452,46
+University Store,Fresh Cornflakes,138,23
+Industrial Zone,Organic Pancake Mix,43,9
+Mall Outlet,Premium Nutella,173,21
+Industrial Zone,Natural Instant Coffee,135,23
+Riverside Shop,Premium Juice,244,46
+University Store,Fresh Salt,391,10
+Hilltop Store,Natural Raisins,272,50
+University Store,Fresh Tea,438,45
+Garden District,Fresh Cake Mix,193,20
+Market Square,Organic Whole Beans,460,28
+Mall Outlet,Fresh Rice,319,12
+Mall Outlet,Classic Samosa,208,22
+Garden District,Natural Tea,328,44
+Highway Branch,Classic Fish Fillet,128,47
+Railway Station,Fresh Chapati,91,42
+Riverside Shop,Classic Sparkling Water,256,33
+Highway Branch,Fresh Sparkling Water,225,18
+Hospital Canteen,Fresh Mustard,333,44
+Riverside Shop,Natural Pepper,451,36
+Hospital Canteen,Homestyle Croissant,330,41
+Garden District,Organic Frozen Veggies,184,20
+Tech Park,Organic Bread,31,34
+Hospital Canteen,Classic Chips,61,21
+Hospital Canteen,Homestyle Biscuits,38,38
+Airport Kiosk,Classic Crackers,142,35
+Industrial Zone,Natural Green Tea,90,48
+Industrial Zone,Fresh Peanuts,24,26
+Bus Terminal,Classic Pasta,454,40
+Highway Branch,Fresh Herbal Tea,166,17
+Mall Outlet,Organic Biscuits,370,37
+Mall Outlet,Organic Croissant,128,30
+University Store,Classic Chicken Nuggets,486,20
+Lakeview Branch,Natural Sugar,273,45
+Hilltop Store,Classic Cereal,500,29
+Highway Branch,Fresh Syrup,105,8
+Tech Park,Homestyle Salt,36,22
+Hilltop Store,Premium Black Tea,6,32
+Railway Station,Homestyle Cream,380,42
+Railway Station,Organic Ice Cream,371,6
+Railway Station,Classic Chips,442,43
+Hilltop Store,Premium Green Tea,124,33
+Industrial Zone,Fresh Peanut Butter,310,11
+Industrial Zone,Classic Noodles,75,9
+Market Square,Classic Chapati,251,43
+Lakeview Branch,Homestyle Bread,18,29
+Hospital Canteen,Organic Sugar,217,9
+Tech Park,Homestyle Pancake Mix,136,33
+Mall Outlet,Premium Honey,297,5
+Mall Outlet,Organic Ground Coffee,461,15
+Hospital Canteen,Organic Bread,71,17
+Mall Outlet,Premium Black Tea,22,5
+Industrial Zone,Fresh Iced Tea,389,8
+Highway Branch,Classic Paratha,246,15
+Market Square,Classic Pancake Mix,415,44
+Market Square,Premium Black Tea,404,37
+Airport Kiosk,Homestyle Butter,68,12
+Industrial Zone,Fresh Cheese,30,40
+Railway Station,Classic Instant Coffee,40,21
+Lakeview Branch,Homestyle Popcorn,315,40
+University Store,Organic Muffin,190,7
+Tech Park,Premium Waffle Mix,316,30
+Garden District,Premium Coriander,316,43
+Tech Park,Homestyle Salt,385,33
+Market Square,Classic Mineral Water,133,15
+Downtown Store,Classic Waffle Mix,31,46
+Mall Outlet,Fresh Paratha,43,22
+Tech Park,Fresh Ice Cream,69,21
+Railway Station,Organic Butter,328,35
+Airport Kiosk,Classic Cinnamon,250,15
+Airport Kiosk,Homestyle Almonds,432,39
+Industrial Zone,Premium Whole Beans,34,50
+Hospital Canteen,Natural Whole Beans,188,15
+Market Square,Homestyle Peanuts,474,25
+Lakeview Branch,Natural Paratha,362,43
+University Store,Premium Cake Mix,499,25
+Hilltop Store,Natural Milk,357,32
+Airport Kiosk,Classic Ice Cream,385,36
+Lakeview Branch,Homestyle Croissant,311,37
+Highway Branch,Natural French Fries,117,6
+Hospital Canteen,Premium Milk,255,35
+Riverside Shop,Natural Milk,337,43
+Hilltop Store,Natural Cumin,434,18
+Railway Station,Premium Chapati,222,6
+Bus Terminal,Fresh Nutella,368,45
+Mall Outlet,Organic Pickle,188,42
+Airport Kiosk,Natural Pita Bread,139,48
+Market Square,Organic Black Tea,162,5
+Garden District,Fresh French Fries,418,19
+Riverside Shop,Organic Mayonnaise,499,20
+Hospital Canteen,Classic Biscuits,222,6
+Tech Park,Organic Tortilla,271,27
+Garden District,Natural Cashews,323,31
+Riverside Shop,Homestyle Flour,493,29
+Railway Station,Homestyle Soda,7,44
+Railway Station,Fresh Mayonnaise,182,24
+Hilltop Store,Premium Nutella,464,30
+Downtown Store,Classic Spring Rolls,248,25
+Tech Park,Organic Almonds,408,15
+Mall Outlet,Organic Mustard,45,37
+University Store,Organic Paratha,199,15
+Hilltop Store,Organic Bagel,194,24
+Tech Park,Homestyle Noodles,146,11
+Market Square,Organic Tea,448,13
+Tech Park,Fresh Chicken Nuggets,176,42
+University Store,Organic Cinnamon,256,27
+Garden District,Natural Bagel,324,19
+Hospital Canteen,Premium Energy Drink,191,20
+Hospital Canteen,Fresh Milk,410,22
+Hilltop Store,Fresh Coconut Water,240,34
+Garden District,Homestyle Herbal Tea,483,42
+Hospital Canteen,Organic Honey,421,33
+Lakeview Branch,Classic Cream,213,48
+Industrial Zone,Premium Muesli,396,25
+Bus Terminal,Classic Ice Cream,114,36
+Industrial Zone,Classic Peanuts,129,40
+Garden District,Homestyle French Fries,409,27
+Lakeview Branch,Classic Croissant,383,14
+Hospital Canteen,Organic Crackers,87,15
+Hospital Canteen,Classic Jam,381,40
+Tech Park,Fresh Tortilla,214,34
+Garden District,Natural French Fries,432,45
+Downtown Store,Organic Cashews,337,36
+Garden District,Premium Oil,395,15
+Tech Park,Fresh Milk,436,35
+Riverside Shop,Homestyle Spring Rolls,324,16
+Riverside Shop,Fresh Frozen Veggies,288,48
+Garden District,Classic Cumin,219,25
+Industrial Zone,Fresh Rice,107,44
+Railway Station,Natural Chips,130,48
+Tech Park,Natural Frozen Pizza,486,41
+Riverside Shop,Organic Ketchup,72,8
+Tech Park,Fresh Coriander,340,38
+Hospital Canteen,Fresh Cream,19,33
+Downtown Store,Organic Pepper,286,21
+Garden District,Organic Coconut Water,175,41
+Lakeview Branch,Organic Cashews,481,13
+University Store,Organic Cake Mix,212,41
+Lakeview Branch,Premium Flour,240,25
+Airport Kiosk,Classic Mayonnaise,355,39
+Hospital Canteen,Organic Chocolate Bar,362,17
+Hilltop Store,Natural Croissant,445,35
+Railway Station,Homestyle Almonds,126,26
+Highway Branch,Natural Brownie Mix,145,31
+Mall Outlet,Fresh Nutella,66,32
+Lakeview Branch,Fresh Salt,11,22
+Downtown Store,Natural Vinegar,181,14
+Downtown Store,Premium Raisins,404,20
+Airport Kiosk,Fresh Instant Coffee,453,31
+Mall Outlet,Organic Chocolate Bar,269,43
+Bus Terminal,Natural Mustard,253,17
+Bus Terminal,Organic Cake Mix,266,16
+Hilltop Store,Premium Chocolate Bar,461,27
+Riverside Shop,Classic Cream,425,17
+Hilltop Store,Fresh Cinnamon,354,37
+Downtown Store,Fresh Paratha,52,50
+Riverside Shop,Organic Cumin,246,10
+Garden District,Classic Black Tea,412,29
+Downtown Store,Fresh Coconut Water,103,48
+Airport Kiosk,Organic Cinnamon,258,28
+University Store,Fresh Spring Rolls,44,38
+Hilltop Store,Fresh Brownie Mix,127,31
+Hilltop Store,Classic Tea,442,32
+Downtown Store,Homestyle Pickle,92,48
+Downtown Store,Homestyle Rice,309,17
+Mall Outlet,Fresh Cumin,241,40
+Market Square,Organic Cornflakes,374,15
+Hilltop Store,Classic Samosa,34,7
+Riverside Shop,Fresh Raisins,476,31
+Bus Terminal,Homestyle Green Tea,499,31
+Bus Terminal,Premium Brownie Mix,400,34
+Bus Terminal,Fresh Cashews,436,31
+Hospital Canteen,Homestyle Croissant,488,34
+Railway Station,Fresh Nutella,182,27
+University Store,Premium Yogurt,316,8
+Airport Kiosk,Fresh Mineral Water,460,37
+Mall Outlet,Natural Brownie Mix,169,49
+University Store,Fresh Oats,183,12
+Mall Outlet,Classic Fish Fillet,25,13
+Railway Station,Natural Nutella,104,41
+Hospital Canteen,Premium Pepper,105,20
+Tech Park,Organic Muesli,275,44
+Lakeview Branch,Homestyle Spring Rolls,69,17
+Lakeview Branch,Fresh Energy Drink,96,46
+Industrial Zone,Organic Cashews,105,28
+Hilltop Store,Homestyle Fish Fillet,35,24
+Hilltop Store,Natural Soup,161,26
+Lakeview Branch,Classic Rice,14,34
+Downtown Store,Organic Cake Mix,192,21
+Downtown Store,Premium Fish Fillet,70,32
+Downtown Store,Premium Gum,225,23
+Lakeview Branch,Organic Instant Coffee,163,45
+Mall Outlet,Homestyle Chicken Nuggets,422,24
+University Store,Classic Sauce,259,35
+Railway Station,Fresh Milk,54,31
+University Store,Natural Energy Drink,125,21
+Hilltop Store,Organic Pita Bread,232,49
+Industrial Zone,Classic Ketchup,456,42
+Bus Terminal,Fresh Energy Drink,27,16
+Riverside Shop,Fresh Spring Rolls,27,32
+Riverside Shop,Premium Butter,422,35
+Industrial Zone,Fresh Oil,176,15
+Hilltop Store,Organic Sauce,80,19
+Lakeview Branch,Classic Cheese,396,28
+Market Square,Natural Syrup,105,34
+Bus Terminal,Homestyle Cake Mix,57,15
+Hospital Canteen,Natural Popcorn,92,39
+University Store,Natural Cinnamon,392,40
+Riverside Shop,Classic Cream,43,42
+Hilltop Store,Classic Ground Coffee,423,50
+Riverside Shop,Fresh Cake Mix,425,43
+Hospital Canteen,Organic Cashews,196,48
+Lakeview Branch,Premium Juice,319,42
+Mall Outlet,Homestyle French Fries,361,49
+Riverside Shop,Fresh Fish Fillet,160,30
+Hilltop Store,Fresh Bagel,152,32
+University Store,Homestyle Muffin,164,14
+Airport Kiosk,Classic Cereal,299,5
+Downtown Store,Fresh Black Tea,37,28
+Highway Branch,Fresh Pancake Mix,446,14
+Industrial Zone,Classic Sparkling Water,437,38
+Railway Station,Natural Biscuits,275,28
+Hospital Canteen,Fresh Iced Tea,252,5
+Garden District,Organic Chocolate Bar,257,42
+Bus Terminal,Homestyle Bagel,249,43
+Hilltop Store,Premium Sauce,391,7
+Mall Outlet,Classic Cream,350,24
+Railway Station,Premium Croissant,480,7
+Lakeview Branch,Classic Syrup,315,48
+Garden District,Fresh Candy,216,36
+Highway Branch,Homestyle Tortilla,328,26
+Industrial Zone,Organic Cereal,380,13
+Industrial Zone,Natural Sauce,357,6
+Downtown Store,Classic Cheese,353,24
+Hilltop Store,Organic Popcorn,236,35
+Industrial Zone,Homestyle Dates,16,45
+Bus Terminal,Fresh Raisins,138,49
+Tech Park,Premium Whole Beans,21,48
+Airport Kiosk,Organic Instant Coffee,211,11
+Airport Kiosk,Homestyle Honey,152,5
+Lakeview Branch,Natural Yogurt,300,44
+Highway Branch,Classic Juice,350,10
+Railway Station,Classic Herbal Tea,137,27
+Bus Terminal,Premium Salt,431,16
+Bus Terminal,Premium Pasta,147,46
+Highway Branch,Homestyle Energy Drink,257,50
+Industrial Zone,Homestyle Vinegar,447,17
+Tech Park,Organic Spring Rolls,389,40
+Garden District,Premium Dates,250,48
+Industrial Zone,Natural Sauce,173,10
+Hospital Canteen,Homestyle Mayonnaise,26,32
+Industrial Zone,Classic Black Tea,200,38
+Industrial Zone,Natural Pickle,35,27
+Hospital Canteen,Homestyle Frozen Veggies,239,12
+Lakeview Branch,Premium Oil,186,31
+Hilltop Store,Premium Herbal Tea,41,31
+Railway Station,Natural Soda,298,24
+Downtown Store,Natural Sparkling Water,122,31
+Industrial Zone,Homestyle Chicken Nuggets,122,29
+University Store,Premium Mineral Water,327,5
+Hospital Canteen,Natural Green Tea,451,28
+Hospital Canteen,Organic Fish Fillet,356,31
+Mall Outlet,Classic Cashews,464,9
+Airport Kiosk,Fresh Soup,300,26
+Railway Station,Fresh Pasta,95,13
+University Store,Classic Spring Rolls,190,9
+Market Square,Organic Waffle Mix,191,30
+Riverside Shop,Premium Soda,34,42
+Highway Branch,Organic Almonds,485,14
+Hilltop Store,Homestyle Raisins,219,41
+Bus Terminal,Classic Turmeric,378,24
+Market Square,Classic Mustard,389,49
+Industrial Zone,Premium Crackers,296,36
+Market Square,Fresh Pancake Mix,269,35
+Riverside Shop,Homestyle Samosa,423,37
+Hilltop Store,Natural Bagel,209,17
+Mall Outlet,Natural Black Tea,217,19
+Downtown Store,Premium Sauce,82,36
+Hilltop Store,Organic Soup,133,50
+Airport Kiosk,Premium Popcorn,292,16
+Highway Branch,Homestyle Bagel,177,41
+Lakeview Branch,Organic Peanuts,216,21
+Highway Branch,Fresh Peanuts,2,12
+Highway Branch,Natural Butter,144,30
+Riverside Shop,Classic Pita Bread,367,5
+Mall Outlet,Natural Yogurt,199,18
+Mall Outlet,Homestyle Samosa,310,10
+Riverside Shop,Classic Cereal,257,32
+Airport Kiosk,Premium Peanut Butter,349,46
+Downtown Store,Classic Mayonnaise,268,28
+Hilltop Store,Premium Sauce,115,29
+Downtown Store,Premium Ground Coffee,403,14
+Highway Branch,Fresh Jam,6,31
+Airport Kiosk,Premium Jam,213,35
+Airport Kiosk,Homestyle Cheese,377,27
+Bus Terminal,Premium Muffin,191,30
+Riverside Shop,Homestyle Instant Coffee,148,15
+Garden District,Natural Croissant,266,24
+Garden District,Organic Cumin,0,24
+Industrial Zone,Organic Sugar,429,50
+Downtown Store,Fresh Cinnamon,437,15
+Bus Terminal,Fresh Cornflakes,9,18
+Garden District,Organic Samosa,157,38
+Highway Branch,Homestyle Raisins,227,24
+Tech Park,Homestyle Chocolate Bar,195,18
+Lakeview Branch,Classic Oil,166,13
+Hilltop Store,Homestyle Green Tea,117,26
+Tech Park,Premium Green Tea,41,12
+Market Square,Natural Oats,353,14
+Downtown Store,Fresh Dates,427,39
+Downtown Store,Homestyle Cinnamon,431,32
+Tech Park,Classic Cereal,344,50
+Lakeview Branch,Natural Ice Cream,168,37
+Hilltop Store,Premium Green Tea,494,13
+Hilltop Store,Organic Coriander,287,26
+Airport Kiosk,Classic Bagel,332,47
+Tech Park,Organic Turmeric,363,11
+Mall Outlet,Homestyle Noodles,476,15
+Market Square,Homestyle Bagel,40,34
+Bus Terminal,Classic Butter,308,6
+Garden District,Fresh Ketchup,326,30
+Railway Station,Premium Gum,201,19
+Railway Station,Homestyle Biscuits,368,44
+University Store,Natural Salt,89,37
+Mall Outlet,Homestyle Coffee,126,15
+Railway Station,Classic Coriander,167,42
+Market Square,Fresh French Fries,172,5
+Airport Kiosk,Fresh Cereal,500,48
+Bus Terminal,Natural Muffin,25,50
+Highway Branch,Homestyle Vinegar,339,43
+University Store,Organic Noodles,426,19
+Bus Terminal,Premium Cornflakes,111,27
+Hilltop Store,Homestyle Turmeric,101,47
+Lakeview Branch,Organic Ground Coffee,337,17
+Highway Branch,Homestyle Raisins,128,26
+Highway Branch,Classic Turmeric,352,33
+Lakeview Branch,Premium Cheese,212,33
+Tech Park,Organic Iced Tea,298,45
+Hospital Canteen,Organic Cornflakes,416,20
+Downtown Store,Premium Mustard,206,37
+Bus Terminal,Natural Dates,31,34
+Garden District,Organic Coriander,64,49
+Tech Park,Homestyle Pancake Mix,203,26
+Highway Branch,Fresh Samosa,434,44
+University Store,Classic Butter,277,43
+Mall Outlet,Natural Pasta,182,15
+Garden District,Homestyle Iced Tea,306,37
+Airport Kiosk,Natural Honey,257,15
+Industrial Zone,Organic Rice,464,50
+Mall Outlet,Premium Butter,61,22
+Riverside Shop,Premium Nutella,226,36
+Railway Station,Fresh Cream,294,10
+Airport Kiosk,Premium Dates,371,10
+Railway Station,Classic Crackers,180,33
+Railway Station,Classic Mustard,177,13
+Market Square,Classic Fish Fillet,85,13
+Lakeview Branch,Classic Coffee,384,29
+Mall Outlet,Classic Mustard,290,46
+Hospital Canteen,Homestyle Pasta,137,50
+Industrial Zone,Natural Mineral Water,341,6
+Industrial Zone,Classic Crackers,489,13
+Riverside Shop,Fresh Waffle Mix,287,21
+Riverside Shop,Homestyle Peanut Butter,151,17
+Hilltop Store,Classic Candy,381,21
+Lakeview Branch,Classic Popcorn,163,34
+Bus Terminal,Classic Soup,414,31
+Tech Park,Premium Cashews,39,20
+Industrial Zone,Natural Gum,274,32
+Hospital Canteen,Homestyle Milk,174,6
+Garden District,Homestyle Cream,489,7
+Lakeview Branch,Classic Ice Cream,298,10
+Lakeview Branch,Premium Mayonnaise,304,27
+Lakeview Branch,Premium Dates,381,33
+Market Square,Fresh Pasta,72,18
+Riverside Shop,Homestyle Candy,333,28
+Industrial Zone,Homestyle Chapati,302,17
+Railway Station,Classic Biscuits,7,12
+Riverside Shop,Homestyle Nutella,145,10
+Highway Branch,Homestyle Oil,235,6
+Railway Station,Premium Candy,54,40
+Garden District,Premium Butter,343,19
+Railway Station,Organic Sauce,361,38
+Bus Terminal,Natural Cumin,21,33
+Highway Branch,Organic Milk,342,13
+Downtown Store,Classic Chicken Nuggets,439,19
+Industrial Zone,Homestyle Sugar,364,18
+Market Square,Natural Almonds,51,9
+Highway Branch,Organic Salt,388,41
+Riverside Shop,Premium Ice Cream,202,35
+Railway Station,Fresh Turmeric,226,15
+Downtown Store,Fresh Cereal,331,33
+Airport Kiosk,Fresh Croissant,396,21
+Market Square,Fresh Coriander,458,29
+Hospital Canteen,Premium Ground Coffee,247,5
+Bus Terminal,Homestyle Butter,51,42
+Hilltop Store,Homestyle Candy,1,27
+Railway Station,Homestyle Sauce,438,25
+Bus Terminal,Classic Coffee,146,17
+Riverside Shop,Premium Mineral Water,250,35
+Downtown Store,Premium Rice,133,30
+Tech Park,Premium Bagel,103,43
+Airport Kiosk,Organic Crackers,200,21
+Lakeview Branch,Natural Samosa,2,42
+Lakeview Branch,Premium Chips,138,32
+Industrial Zone,Natural Almonds,334,39
+Bus Terminal,Homestyle Chicken Nuggets,495,20
+Lakeview Branch,Homestyle Jam,25,27
+Market Square,Natural Sauce,219,39
+Mall Outlet,Organic Mustard,435,15
+Hospital Canteen,Fresh Mayonnaise,48,13
+Riverside Shop,Classic Juice,90,32
+Tech Park,Classic Green Tea,214,13
+Hospital Canteen,Fresh Frozen Pizza,253,37
+Industrial Zone,Organic Cornflakes,351,7
+Riverside Shop,Premium Butter,264,8
+University Store,Organic Butter,434,10
+Garden District,Fresh Bagel,197,12
+Tech Park,Premium Bread,311,34
+Garden District,Homestyle Ground Coffee,6,7
+Downtown Store,Organic Candy,469,42
+Hilltop Store,Organic Mayonnaise,494,7
+Bus Terminal,Fresh Ketchup,265,37
+Hospital Canteen,Fresh Green Tea,200,33
+Industrial Zone,Homestyle Tortilla,363,19
+Hilltop Store,Fresh Peanut Butter,372,36
+University Store,Fresh Dates,432,30
+Garden District,Natural Herbal Tea,118,41
+Hilltop Store,Organic Pasta,283,43
+University Store,Organic Herbal Tea,107,11
+Riverside Shop,Natural Cinnamon,162,41
+Railway Station,Natural Chips,34,38
+Airport Kiosk,Organic Cake Mix,55,17
+Downtown Store,Premium Honey,150,13
+Industrial Zone,Homestyle Jam,277,45
+University Store,Homestyle Noodles,405,50
+Highway Branch,Premium Oats,322,9
+Mall Outlet,Organic Dates,494,42
+Hilltop Store,Organic Vinegar,100,27
+Riverside Shop,Fresh Cake Mix,440,5
+Riverside Shop,Fresh Bagel,85,47
+Riverside Shop,Fresh Spring Rolls,32,16
+Hospital Canteen,Natural Sparkling Water,229,44
+Riverside Shop,Homestyle Ice Cream,420,42
+Downtown Store,Homestyle Herbal Tea,349,19
+Garden District,Homestyle Pancake Mix,71,20
+Market Square,Natural Gum,363,33
+Hilltop Store,Premium Instant Coffee,239,29
+Tech Park,Premium Frozen Veggies,18,45
+Railway Station,Classic Muesli,84,38
+Riverside Shop,Premium Flour,458,9
+Industrial Zone,Fresh Oats,399,24
+Downtown Store,Homestyle Tea,108,41
+Riverside Shop,Classic Jam,498,35
+Market Square,Fresh Cinnamon,273,34
+University Store,Fresh Tortilla,342,49
+Hilltop Store,Fresh Honey,10,38
+Mall Outlet,Natural Vinegar,100,31
+Airport Kiosk,Fresh Rice,353,41
+Hilltop Store,Fresh Cornflakes,324,44
+Tech Park,Homestyle Pepper,419,33
+Lakeview Branch,Organic Sugar,92,29
+Garden District,Premium Chocolate Bar,124,37
+Highway Branch,Classic Sparkling Water,2,35
+Mall Outlet,Premium Jam,477,24
+Market Square,Organic Peanuts,282,25
+Mall Outlet,Fresh Cumin,114,11
+Mall Outlet,Classic Pasta,240,37
+Railway Station,Organic Mayonnaise,174,33
+Tech Park,Premium Pita Bread,207,33
+Bus Terminal,Organic Candy,303,13
+Lakeview Branch,Classic Milk,447,47
+Market Square,Natural Cashews,310,13
+Garden District,Organic Sauce,447,19
+Downtown Store,Classic Croissant,79,38
+Bus Terminal,Premium Flour,411,33
+University Store,Organic Sauce,183,37
+Riverside Shop,Homestyle Samosa,464,16
+Airport Kiosk,Homestyle Ketchup,428,5
+Airport Kiosk,Premium Herbal Tea,6,29
+Bus Terminal,Natural Juice,271,35
+Mall Outlet,Natural Spring Rolls,446,46
+Highway Branch,Fresh Whole Beans,388,43
+Bus Terminal,Homestyle Honey,475,16
+Railway Station,Premium Salt,174,34
+Mall Outlet,Fresh Pasta,472,30
+University Store,Natural Ground Coffee,430,31
+Bus Terminal,Fresh Black Tea,357,28
+Mall Outlet,Homestyle Chocolate Bar,381,24
+Hospital Canteen,Fresh Gum,231,27
+Garden District,Fresh Juice,181,33
+Lakeview Branch,Fresh Cake Mix,497,24
+Hilltop Store,Classic Noodles,485,38
+Market Square,Organic Brownie Mix,438,25
+Highway Branch,Homestyle Mineral Water,214,46
+Tech Park,Natural Pita Bread,293,8
+Lakeview Branch,Organic Cream,417,38
+Hospital Canteen,Organic Herbal Tea,390,11
+Tech Park,Organic Cream,161,32
+Bus Terminal,Classic Cream,127,19
+Market Square,Classic Cashews,176,9
+Hospital Canteen,Premium Pancake Mix,219,23
+Lakeview Branch,Premium Ground Coffee,253,7
+Hilltop Store,Premium Mayonnaise,30,47
+Railway Station,Homestyle Spring Rolls,443,39
+Downtown Store,Natural Croissant,278,17
+Market Square,Homestyle Whole Beans,107,9
+Tech Park,Natural Ice Cream,114,21
+Railway Station,Premium Salt,359,8
+Highway Branch,Homestyle Tortilla,248,25
+Market Square,Premium Frozen Pizza,26,20
+Industrial Zone,Homestyle Milk,153,27
+Railway Station,Fresh Oats,352,20
+Tech Park,Fresh Muesli,398,39
+Riverside Shop,Organic Syrup,125,24
+Riverside Shop,Classic Herbal Tea,184,13
+University Store,Homestyle Cake Mix,164,33
+Downtown Store,Premium Biscuits,39,25
+Tech Park,Classic Iced Tea,447,26
+Lakeview Branch,Natural Milk,436,38
+Hilltop Store,Organic Tortilla,206,17
+Market Square,Natural Crackers,3,45
+Airport Kiosk,Classic Tea,85,22
+Hilltop Store,Homestyle Ice Cream,447,14
+Bus Terminal,Organic Coconut Water,193,12
+Hilltop Store,Natural Mayonnaise,382,47
+Railway Station,Homestyle Pancake Mix,82,50
+Industrial Zone,Homestyle Turmeric,261,45
+Railway Station,Natural Whole Beans,478,34
+Lakeview Branch,Fresh Mineral Water,246,31
+Lakeview Branch,Classic Coffee,92,18
+Hilltop Store,Natural Milk,12,18
+Hilltop Store,Natural Dates,176,46
+University Store,Natural Milk,286,33
+Garden District,Classic Coconut Water,355,16
+Railway Station,Natural Mustard,49,41
+Tech Park,Fresh Pasta,470,12
+Garden District,Natural Muffin,79,16
+Lakeview Branch,Natural Black Tea,487,22
+Mall Outlet,Homestyle Pancake Mix,406,50
+Highway Branch,Classic Syrup,492,49
+Airport Kiosk,Organic Croissant,261,49
+Downtown Store,Classic Raisins,480,30
+Highway Branch,Premium Jam,123,48
+Riverside Shop,Fresh Mineral Water,444,11
+Industrial Zone,Natural Pasta,184,22
+Hospital Canteen,Premium Mayonnaise,142,9
+Tech Park,Natural Candy,313,15
+Hospital Canteen,Natural Chocolate Bar,459,38
+Industrial Zone,Classic Muffin,469,20
+Mall Outlet,Fresh Herbal Tea,392,5
+Downtown Store,Classic Ground Coffee,118,27
+Railway Station,Fresh Chocolate Bar,14,17
+Industrial Zone,Classic Tortilla,81,37
+Highway Branch,Premium Frozen Veggies,243,17
+Hospital Canteen,Homestyle Vinegar,155,44
+Downtown Store,Fresh Syrup,228,42
+Tech Park,Homestyle Paratha,279,29
+Hospital Canteen,Premium Paratha,51,32
+Tech Park,Classic Oil,257,42
+Lakeview Branch,Premium French Fries,334,13
+Mall Outlet,Fresh Honey,75,28
+Downtown Store,Natural Mayonnaise,213,16
+Tech Park,Natural Candy,208,39
+Hospital Canteen,Premium Gum,149,45
+Airport Kiosk,Fresh Muffin,224,29
+Downtown Store,Homestyle Pepper,348,38
+Tech Park,Classic Energy Drink,482,39
+Highway Branch,Fresh Ketchup,10,41
+Highway Branch,Classic Chocolate Bar,185,39
+Bus Terminal,Fresh Juice,266,43
+Garden District,Homestyle Biscuits,327,23
+Railway Station,Premium Nutella,477,47
+Airport Kiosk,Premium Almonds,107,9
+Railway Station,Fresh Oats,124,6
+Tech Park,Natural Raisins,150,29
+Downtown Store,Organic Black Tea,240,15
+Lakeview Branch,Premium Almonds,495,14
+Market Square,Homestyle Cake Mix,7,20
+Airport Kiosk,Homestyle Crackers,455,30
+University Store,Natural Croissant,25,37
+Tech Park,Classic Chips,145,47
+Bus Terminal,Fresh Spring Rolls,292,10
+Hilltop Store,Organic Soda,221,20
+University Store,Classic Candy,333,50
+Airport Kiosk,Classic Popcorn,348,7
+Airport Kiosk,Organic Mineral Water,31,50
+Lakeview Branch,Organic Iced Tea,198,31
+Airport Kiosk,Homestyle Cake Mix,192,32
+Highway Branch,Homestyle Spring Rolls,497,14
+Market Square,Fresh Frozen Veggies,185,25
+University Store,Organic Gum,148,5
+Market Square,Homestyle Salt,169,34
+Riverside Shop,Classic Chapati,474,29
+Highway Branch,Fresh Flour,458,41
+Hospital Canteen,Organic Crackers,391,11
+Hilltop Store,Organic Milk,261,24
+Market Square,Premium Ice Cream,40,7
+Railway Station,Homestyle Instant Coffee,396,31
+Lakeview Branch,Organic Cereal,378,47
+Garden District,Organic Pepper,93,29
+Industrial Zone,Organic Flour,151,31
+Riverside Shop,Organic Yogurt,326,11
+Bus Terminal,Fresh Instant Coffee,313,47
+Hospital Canteen,Fresh Cereal,261,45
+Riverside Shop,Organic Instant Coffee,465,29
+Industrial Zone,Classic Pickle,68,24
+University Store,Organic Gum,493,6
+Railway Station,Premium Popcorn,320,36
+Market Square,Natural Crackers,147,25
+Bus Terminal,Classic Energy Drink,476,19
+Tech Park,Classic Oats,75,9
+Railway Station,Premium Jam,28,16
+Industrial Zone,Homestyle Mustard,140,14
+Industrial Zone,Fresh Mayonnaise,396,38
+Riverside Shop,Fresh Honey,177,22
+Lakeview Branch,Fresh Iced Tea,433,5
+Bus Terminal,Organic Popcorn,409,9
+Hilltop Store,Classic Cake Mix,7,48
+Bus Terminal,Homestyle Chapati,87,44
+Market Square,Premium Cinnamon,12,15
+Airport Kiosk,Homestyle Jam,337,6
+Hospital Canteen,Homestyle Butter,476,6
+Tech Park,Premium Cream,222,33
+Mall Outlet,Fresh Sparkling Water,276,26
+Airport Kiosk,Classic Waffle Mix,113,47
+Airport Kiosk,Homestyle Syrup,62,36
+Garden District,Organic Almonds,130,34
+Riverside Shop,Homestyle Pita Bread,162,27
+University Store,Homestyle Whole Beans,414,9
+Highway Branch,Natural Mineral Water,470,40
+Lakeview Branch,Fresh Sugar,149,42
+Highway Branch,Fresh Milk,2,16
+Market Square,Homestyle Oats,461,40
+Mall Outlet,Premium Cereal,402,46
+Highway Branch,Organic Cornflakes,260,42
+Tech Park,Homestyle Mayonnaise,181,13
+Mall Outlet,Classic Turmeric,225,30
+Market Square,Organic Bread,61,15
+Railway Station,Natural Bagel,220,15
+Hospital Canteen,Organic Oats,435,25
+Garden District,Organic Mustard,244,19
+Lakeview Branch,Organic Pita Bread,142,43
+Mall Outlet,Fresh Crackers,454,43
+University Store,Fresh Cashews,27,20
+Tech Park,Homestyle Turmeric,384,15
+Hospital Canteen,Organic Oats,379,15
+Bus Terminal,Fresh Mineral Water,307,30
+Tech Park,Organic Syrup,403,20
+Market Square,Fresh Gum,258,23
+University Store,Organic Cornflakes,388,48
+Tech Park,Fresh Crackers,246,46
+Railway Station,Premium Vinegar,131,18
+Riverside Shop,Natural Frozen Pizza,303,22
+Highway Branch,Classic Cinnamon,374,40
+Garden District,Premium Cereal,377,38
+Downtown Store,Fresh Sauce,115,6
+Market Square,Premium Iced Tea,327,21
+Tech Park,Organic Sparkling Water,147,40
+Railway Station,Homestyle Noodles,125,13
+Riverside Shop,Homestyle Coffee,23,37
+Hospital Canteen,Classic Noodles,10,26
+Downtown Store,Homestyle Paratha,424,22
+Industrial Zone,Homestyle Oats,261,36
+Hilltop Store,Organic Instant Coffee,171,42
+Downtown Store,Classic Mayonnaise,161,12
+Market Square,Organic Spring Rolls,466,18
+Bus Terminal,Natural Yogurt,87,11
+Downtown Store,Natural Brownie Mix,26,35
+University Store,Fresh Chapati,131,35
+Riverside Shop,Homestyle Cumin,118,41
+Mall Outlet,Homestyle Coriander,36,35
+Mall Outlet,Natural Cheese,481,21
+Tech Park,Homestyle Coconut Water,5,6
+Airport Kiosk,Homestyle Raisins,131,27
+Railway Station,Natural Pepper,347,37
+Lakeview Branch,Fresh Fish Fillet,468,38
+Railway Station,Premium Cheese,345,36
+Garden District,Fresh Soup,245,23
+Garden District,Fresh Chicken Nuggets,306,29
+Railway Station,Premium Cumin,484,5
+Bus Terminal,Organic Pita Bread,112,30
+Railway Station,Homestyle Herbal Tea,29,23
+Tech Park,Classic Green Tea,407,35
+University Store,Organic Herbal Tea,75,5
+Market Square,Organic Instant Coffee,278,5
+Airport Kiosk,Premium French Fries,264,43
+Airport Kiosk,Natural Pasta,327,14
+Hospital Canteen,Classic Pepper,439,13
+Garden District,Natural Cumin,347,42
+Hilltop Store,Fresh Spring Rolls,2,24
+Airport Kiosk,Natural Cream,126,28
+Mall Outlet,Premium Coconut Water,9,13
+Railway Station,Natural Croissant,396,50
+Hospital Canteen,Natural Butter,498,33
+Hospital Canteen,Organic Chapati,353,32
+Railway Station,Natural Energy Drink,148,40
+Industrial Zone,Organic Soup,111,47
+Lakeview Branch,Organic Iced Tea,218,17
+Railway Station,Natural Milk,267,9
+Bus Terminal,Premium Bread,76,21
+Tech Park,Homestyle Tea,283,9
+Airport Kiosk,Premium Biscuits,124,36
+Railway Station,Classic Herbal Tea,137,15
+Riverside Shop,Classic Cornflakes,450,37
+Airport Kiosk,Homestyle Chapati,313,19
+Downtown Store,Fresh Ketchup,489,44
+Garden District,Premium Oats,123,43
+Hospital Canteen,Organic Pita Bread,379,49
+Industrial Zone,Classic Coriander,203,7
+Market Square,Homestyle Chips,275,27
+Airport Kiosk,Fresh Coffee,307,40
+Tech Park,Premium Nutella,450,20
+University Store,Homestyle Peanuts,442,6
+Mall Outlet,Organic Raisins,130,44
+Garden District,Natural Tortilla,250,24
+Bus Terminal,Premium Cheese,139,36
+Airport Kiosk,Homestyle Cornflakes,445,46
+Bus Terminal,Classic Crackers,237,7
+University Store,Homestyle Pita Bread,301,44
+Downtown Store,Natural Instant Coffee,213,34
+Market Square,Organic Coriander,308,24
+Hospital Canteen,Classic Vinegar,405,29
+Tech Park,Premium Coffee,294,35
+Bus Terminal,Fresh Popcorn,312,29
+Mall Outlet,Homestyle Nutella,475,7
+Hilltop Store,Fresh Cereal,395,48
+University Store,Organic Juice,175,35
+Airport Kiosk,Classic Samosa,459,30
+Market Square,Classic Chicken Nuggets,434,42
+Mall Outlet,Classic Muffin,26,38
+Tech Park,Homestyle Fish Fillet,10,23
+Garden District,Organic Whole Beans,361,48
+Bus Terminal,Classic Black Tea,160,32
+Riverside Shop,Homestyle Butter,142,18
+Downtown Store,Natural Rice,438,50
+Industrial Zone,Fresh Rice,412,11
+Industrial Zone,Homestyle Pepper,257,47
+Garden District,Natural Honey,233,47
+Bus Terminal,Classic Juice,34,48
+Lakeview Branch,Premium Cream,487,41
+Riverside Shop,Organic Green Tea,198,25
+Market Square,Premium Waffle Mix,92,19
+Railway Station,Fresh Soda,157,9
+Mall Outlet,Organic Pasta,135,39
+Tech Park,Premium Yogurt,225,40
+Industrial Zone,Homestyle Coconut Water,214,33
+Industrial Zone,Classic Chapati,56,14
+Railway Station,Premium Butter,414,35
+Lakeview Branch,Fresh Bread,281,9
+Market Square,Organic Cake Mix,430,42
+Tech Park,Organic Frozen Veggies,85,36
+Garden District,Natural Energy Drink,319,46
+Tech Park,Natural Cumin,260,28
+Industrial Zone,Homestyle Coffee,84,21
+Riverside Shop,Homestyle Cornflakes,298,9
+Riverside Shop,Classic Iced Tea,207,6
+Hilltop Store,Natural Cinnamon,149,11
+Lakeview Branch,Homestyle Candy,178,48
+Market Square,Homestyle Peanut Butter,171,28
+Airport Kiosk,Premium Peanut Butter,365,19
+Downtown Store,Homestyle Almonds,406,22
+Airport Kiosk,Premium Cake Mix,460,31
+Airport Kiosk,Organic French Fries,271,25
+Hospital Canteen,Natural Sparkling Water,206,36
+Downtown Store,Natural Coffee,420,12
+Railway Station,Homestyle Spring Rolls,318,21
+University Store,Natural Peanuts,363,11
+University Store,Homestyle French Fries,156,5
+Downtown Store,Organic Pepper,382,22
+Downtown Store,Classic Bread,227,28
+Railway Station,Organic Oats,76,20
+Garden District,Classic Almonds,62,8
+Lakeview Branch,Premium Whole Beans,159,7
+Bus Terminal,Homestyle Cake Mix,310,36
+Highway Branch,Natural Frozen Pizza,210,38
+Lakeview Branch,Fresh Rice,90,40
+Market Square,Homestyle Jam,459,26
+Lakeview Branch,Classic Salt,156,14
+Bus Terminal,Classic Cake Mix,105,22
+University Store,Natural Fish Fillet,364,36
+Riverside Shop,Classic Vinegar,379,43
+Highway Branch,Classic Ice Cream,442,28
+Mall Outlet,Classic Cheese,436,46
+Industrial Zone,Natural Samosa,245,49
+Airport Kiosk,Classic Noodles,210,31
+Hilltop Store,Classic Vinegar,449,25
+University Store,Premium Tortilla,375,28
+Market Square,Classic Fish Fillet,427,34
+Tech Park,Natural Soda,359,47
+Lakeview Branch,Fresh Dates,488,47
+Bus Terminal,Classic Samosa,34,8
+Tech Park,Homestyle Crackers,165,17
+Riverside Shop,Homestyle Fish Fillet,356,14
+Hospital Canteen,Homestyle Tea,365,42
+Downtown Store,Classic Butter,220,49
+Garden District,Natural Biscuits,235,12
+Market Square,Premium Salt,99,50
+Railway Station,Organic Bread,393,45
+Mall Outlet,Natural Flour,148,19
+Lakeview Branch,Organic Juice,131,8
+Industrial Zone,Fresh Milk,179,29
+Garden District,Organic Pepper,23,23
+Mall Outlet,Fresh Cereal,460,11
+Railway Station,Homestyle Mustard,203,36
+Bus Terminal,Premium Pickle,75,35
+Garden District,Organic Milk,224,12
+Highway Branch,Classic Green Tea,229,41
+Lakeview Branch,Homestyle Whole Beans,352,34
+Mall Outlet,Premium Spring Rolls,220,18
+Lakeview Branch,Premium Oil,4,31
+Tech Park,Classic Butter,389,23
+Highway Branch,Homestyle Candy,234,15
+Riverside Shop,Homestyle Mineral Water,311,6
+Lakeview Branch,Fresh Bagel,107,37
+Market Square,Homestyle Rice,51,36
+Industrial Zone,Homestyle Mineral Water,208,34
+Railway Station,Organic Pita Bread,477,15
+Tech Park,Classic Black Tea,224,7
+Highway Branch,Homestyle Cream,178,24
+Airport Kiosk,Organic Candy,202,45
+Airport Kiosk,Natural Instant Coffee,34,25
+Market Square,Fresh Peanut Butter,215,22
+Industrial Zone,Natural Butter,64,26
+Railway Station,Organic Ketchup,422,23
+Railway Station,Classic Biscuits,239,37
+Highway Branch,Homestyle Chips,22,48
+Airport Kiosk,Premium French Fries,317,6
+Railway Station,Homestyle Chocolate Bar,464,11
+Hospital Canteen,Homestyle Raisins,407,49
+Hospital Canteen,Organic Pasta,339,16
+Railway Station,Classic Paratha,33,20
+University Store,Organic Noodles,359,44
+Tech Park,Natural Bread,115,10
+Tech Park,Organic Pita Bread,79,48
+Downtown Store,Classic Sauce,416,50
+Railway Station,Premium Candy,224,32
+Railway Station,Premium Salt,146,46
+Downtown Store,Premium Oil,119,45
+Highway Branch,Fresh Chicken Nuggets,80,45
+Hilltop Store,Organic Ice Cream,354,31
+Riverside Shop,Fresh Chicken Nuggets,113,26
+Airport Kiosk,Homestyle Popcorn,85,37
+Lakeview Branch,Premium Chicken Nuggets,467,9
+Bus Terminal,Natural Almonds,340,5
+Hospital Canteen,Natural Raisins,455,9
+Airport Kiosk,Natural Muesli,16,26
+Bus Terminal,Fresh Coriander,95,12
+Airport Kiosk,Premium Cumin,397,33
+Tech Park,Natural Coconut Water,387,46
+Market Square,Premium Gum,151,27
+Hospital Canteen,Classic Soup,190,13
+Railway Station,Organic Whole Beans,161,12
+Downtown Store,Premium Samosa,5,27
+Hilltop Store,Premium Ketchup,254,5
+Hospital Canteen,Fresh Milk,318,28
+Downtown Store,Natural Energy Drink,204,39
+Bus Terminal,Classic Ground Coffee,408,22
+University Store,Organic Energy Drink,64,17
+Hospital Canteen,Classic Pancake Mix,344,42
+Riverside Shop,Classic Mayonnaise,435,49
+Market Square,Natural Fish Fillet,222,46
+Highway Branch,Classic Syrup,478,25
+Market Square,Premium Raisins,305,14
+Tech Park,Premium Dates,126,25
+Railway Station,Organic Coffee,17,29
+Hilltop Store,Fresh Noodles,171,47
+Hospital Canteen,Organic Turmeric,187,10
+Bus Terminal,Classic Yogurt,389,42
+Tech Park,Homestyle Paratha,228,49
+Hospital Canteen,Organic Crackers,443,42
+Airport Kiosk,Natural Flour,449,38
+University Store,Natural Fish Fillet,171,18
+Mall Outlet,Classic Ketchup,88,34
+Garden District,Fresh Vinegar,136,21
+Garden District,Classic Dates,171,38
+Hilltop Store,Organic Juice,342,9
+Riverside Shop,Natural Coffee,216,49
+Highway Branch,Organic Cream,101,22
+Railway Station,Homestyle Bagel,45,30
+University Store,Homestyle Mustard,192,9
+Hospital Canteen,Organic Waffle Mix,480,49
+Garden District,Classic Tortilla,220,26
+Airport Kiosk,Organic Syrup,415,14
+Highway Branch,Classic Cumin,345,21
+Industrial Zone,Classic Sparkling Water,396,33
+Downtown Store,Homestyle Frozen Pizza,346,37
+Mall Outlet,Organic Bread,54,22
+Market Square,Homestyle Cumin,55,15
+Riverside Shop,Homestyle Mineral Water,226,9
+Riverside Shop,Natural Coconut Water,274,22
+Downtown Store,Homestyle Waffle Mix,430,40
+Riverside Shop,Classic Iced Tea,495,47
+University Store,Fresh Soda,229,24
+Market Square,Homestyle Vinegar,391,46
+Lakeview Branch,Classic Honey,375,12
+Garden District,Organic Pita Bread,457,30
+Market Square,Organic Whole Beans,249,43
+Airport Kiosk,Organic Sugar,372,5
+Market Square,Classic Candy,9,25
+Market Square,Natural Gum,412,42
+Riverside Shop,Classic Soda,6,26
+Tech Park,Homestyle Noodles,465,37
+Downtown Store,Natural Popcorn,61,22
+Downtown Store,Fresh Jam,110,23
+Lakeview Branch,Classic Mustard,12,26
+Downtown Store,Natural Raisins,429,12
+Lakeview Branch,Homestyle Sparkling Water,457,8
+Hospital Canteen,Premium Turmeric,485,50
+Airport Kiosk,Premium Chips,490,46
+Market Square,Homestyle Mineral Water,421,47
+Railway Station,Classic Chips,410,42
+Riverside Shop,Organic Honey,324,16
+Mall Outlet,Homestyle Peanut Butter,120,9
+Mall Outlet,Premium Iced Tea,359,31
+Riverside Shop,Fresh Pancake Mix,214,6
+Industrial Zone,Organic Bagel,491,45
+Mall Outlet,Fresh Rice,467,23
+Industrial Zone,Premium Frozen Veggies,492,33
+Tech Park,Premium Whole Beans,397,21
+Highway Branch,Natural Jam,58,14
+Lakeview Branch,Homestyle Pepper,370,27
+Riverside Shop,Natural Mayonnaise,442,17
+Railway Station,Homestyle Syrup,81,8
+Bus Terminal,Classic Jam,414,22
+Riverside Shop,Natural Pickle,421,40
+Garden District,Classic Mustard,134,42
+Industrial Zone,Homestyle Cumin,370,25
+Riverside Shop,Organic Crackers,433,16
+Railway Station,Organic Rice,441,42
+Highway Branch,Organic Milk,125,19
+Mall Outlet,Homestyle Iced Tea,431,21
+Lakeview Branch,Premium Fish Fillet,189,31
+Hilltop Store,Premium Vinegar,253,50
+Industrial Zone,Classic Soda,61,31
+Railway Station,Premium Vinegar,251,37
+Hilltop Store,Organic Sparkling Water,108,6
+University Store,Natural Instant Coffee,319,27
+Tech Park,Organic Mustard,155,20
+Industrial Zone,Natural Pasta,291,48
+Garden District,Premium Cashews,148,46
+Mall Outlet,Premium Raisins,138,27
+Downtown Store,Natural Pepper,197,14
+Industrial Zone,Homestyle Iced Tea,361,41
+Industrial Zone,Premium Salt,97,13
+Garden District,Organic Samosa,433,19
+Downtown Store,Natural Bread,75,22
+Industrial Zone,Homestyle Black Tea,282,36
+Railway Station,Fresh Iced Tea,48,16
+Railway Station,Organic Iced Tea,457,18
+Hilltop Store,Classic Raisins,291,28
+Tech Park,Classic Mustard,477,28
+Bus Terminal,Fresh Mineral Water,164,39
+Railway Station,Organic Frozen Veggies,258,5
+Lakeview Branch,Premium Salt,437,37
+Airport Kiosk,Natural Ground Coffee,125,24
+Industrial Zone,Organic Jam,265,19
+Hospital Canteen,Fresh Ice Cream,324,22
+Tech Park,Organic Muffin,345,45
+Bus Terminal,Natural Oats,271,27
+Riverside Shop,Natural Popcorn,475,37
+Mall Outlet,Natural Fish Fillet,88,5
+Railway Station,Natural Cake Mix,196,28
+Railway Station,Natural Cake Mix,100,16
+Hospital Canteen,Homestyle Pickle,468,43
+Railway Station,Classic Chips,72,34
+Railway Station,Homestyle Turmeric,83,13
+Airport Kiosk,Premium Black Tea,275,20
+Mall Outlet,Classic Coffee,89,35
+Hospital Canteen,Fresh Crackers,463,21
+Mall Outlet,Natural Turmeric,105,44
+Lakeview Branch,Natural Bagel,360,27
+Hospital Canteen,Homestyle Salt,240,40
+Tech Park,Homestyle French Fries,398,7
+Highway Branch,Classic French Fries,492,13
+Industrial Zone,Natural Oats,9,10
+Tech Park,Premium Muffin,254,10
+Hilltop Store,Organic Biscuits,215,13
+Riverside Shop,Fresh Croissant,185,6
+Highway Branch,Homestyle French Fries,197,47
+Garden District,Natural Black Tea,146,22
+Bus Terminal,Fresh Coriander,397,28
+Hilltop Store,Fresh Mustard,142,11
+Industrial Zone,Classic Mustard,328,23
+Lakeview Branch,Fresh Soda,318,9
+Downtown Store,Homestyle Frozen Veggies,111,16
+Airport Kiosk,Homestyle Whole Beans,358,12
+Tech Park,Natural Pepper,220,47
+Lakeview Branch,Premium Ice Cream,494,34
+Tech Park,Natural Herbal Tea,326,8
+Industrial Zone,Premium Cream,216,45
+Bus Terminal,Homestyle Fish Fillet,131,35
+Bus Terminal,Homestyle Juice,324,13
+Garden District,Organic Soup,364,11
+Mall Outlet,Homestyle Jam,446,8
+University Store,Organic Milk,282,19
+Market Square,Fresh Mineral Water,126,34
+Tech Park,Natural Coconut Water,88,30
+Downtown Store,Classic Salt,43,46
+Market Square,Premium Tortilla,240,50
+Bus Terminal,Classic Rice,317,27
+Hilltop Store,Fresh Cumin,96,23
+Highway Branch,Organic Tortilla,166,18
+Riverside Shop,Fresh Chocolate Bar,481,44
+Highway Branch,Organic Tortilla,135,13
+Hospital Canteen,Classic Herbal Tea,391,36
+Bus Terminal,Premium Bagel,394,16
+Bus Terminal,Premium Cake Mix,129,28
+Bus Terminal,Homestyle Muesli,173,8
+Highway Branch,Organic Instant Coffee,337,38
+Market Square,Classic Sparkling Water,176,16
+Mall Outlet,Organic Green Tea,479,23
+Market Square,Fresh Peanut Butter,221,7
+Airport Kiosk,Homestyle Dates,193,17
+Market Square,Fresh Gum,298,30
+Lakeview Branch,Homestyle Muffin,273,36
+Market Square,Classic Soup,258,24
+Highway Branch,Classic Noodles,401,6
+Garden District,Homestyle French Fries,407,47
+University Store,Premium Waffle Mix,169,49
+Hilltop Store,Homestyle Coriander,452,42
+Garden District,Natural Soda,126,28
+Hilltop Store,Natural Sauce,405,43
+University Store,Premium Tortilla,385,35
+Downtown Store,Classic Iced Tea,196,41
+Lakeview Branch,Homestyle Sparkling Water,424,20
+Hilltop Store,Natural Fish Fillet,90,38
+Hospital Canteen,Fresh Raisins,66,46
+Hilltop Store,Organic Ketchup,76,25
+University Store,Premium Mineral Water,41,31
+Lakeview Branch,Homestyle Pickle,360,46
+Bus Terminal,Natural French Fries,486,23
+Railway Station,Homestyle Chicken Nuggets,227,46
+Bus Terminal,Natural Mayonnaise,340,9
+Market Square,Homestyle Pita Bread,291,38
+Garden District,Premium Chicken Nuggets,110,50
+Railway Station,Homestyle Chicken Nuggets,470,10
+Tech Park,Fresh Chocolate Bar,445,41
+Hospital Canteen,Natural Waffle Mix,367,23
+Garden District,Homestyle Oil,167,42
+Highway Branch,Homestyle Peanuts,497,9
+Mall Outlet,Homestyle Dates,286,26
+Lakeview Branch,Premium Spring Rolls,88,19
+Hilltop Store,Premium Juice,492,45
+Downtown Store,Organic Dates,316,22
+Bus Terminal,Fresh Mustard,253,36
+Riverside Shop,Premium Whole Beans,70,30
+Hilltop Store,Fresh Pickle,258,42
+Railway Station,Classic Black Tea,425,27
+University Store,Homestyle Muffin,491,41
+Riverside Shop,Classic Sparkling Water,252,48
+Bus Terminal,Natural Green Tea,43,50
+Bus Terminal,Natural Raisins,321,45
+Highway Branch,Classic Chips,442,13
+Downtown Store,Organic Cereal,281,50
+Hilltop Store,Organic French Fries,11,6
+Mall Outlet,Homestyle Frozen Veggies,130,16
+Market Square,Classic Jam,208,47
+Railway Station,Natural Samosa,29,30
+Highway Branch,Premium Flour,43,25
+Bus Terminal,Premium Salt,300,26
+Mall Outlet,Fresh Sparkling Water,443,42
+Garden District,Homestyle Paratha,389,7
+Riverside Shop,Homestyle Crackers,203,33
+Mall Outlet,Homestyle Flour,357,47
+Garden District,Organic Butter,339,37
+Downtown Store,Organic Milk,365,21
+Hilltop Store,Premium Pickle,263,49
+Bus Terminal,Classic Frozen Veggies,93,22
+Highway Branch,Homestyle Sauce,89,35
+Tech Park,Homestyle Cornflakes,460,46
+University Store,Classic Mineral Water,499,49
+Riverside Shop,Premium Almonds,216,27
+Lakeview Branch,Homestyle Sauce,65,44
+University Store,Classic Sauce,264,17
+Tech Park,Organic Cereal,486,27
+Mall Outlet,Premium Cake Mix,63,42
+Bus Terminal,Organic Nutella,380,26
+Mall Outlet,Fresh Coffee,334,18
+Tech Park,Classic Samosa,131,18
+Garden District,Fresh Peanuts,167,19
+Railway Station,Premium Syrup,191,48
+Bus Terminal,Homestyle Mayonnaise,247,36
+Bus Terminal,Fresh Mayonnaise,128,13
+Railway Station,Classic Yogurt,426,26
+Market Square,Classic Gum,246,25
+Downtown Store,Fresh Muesli,340,9
+Downtown Store,Fresh Cake Mix,362,46
+Riverside Shop,Premium Spring Rolls,306,10
+University Store,Organic Milk,240,35
+Mall Outlet,Homestyle Rice,458,48
+Hilltop Store,Fresh Biscuits,444,37
+Downtown Store,Classic Flour,211,10
+Hilltop Store,Natural Ground Coffee,305,7
+Bus Terminal,Classic Cinnamon,135,30
+Railway Station,Classic Instant Coffee,362,31
+Riverside Shop,Homestyle Bagel,254,47
+University Store,Natural Rice,77,10
+Bus Terminal,Organic Fish Fillet,384,15
+University Store,Homestyle Cake Mix,117,28
+Railway Station,Premium Whole Beans,256,47
+Garden District,Fresh Coconut Water,400,8
+Airport Kiosk,Organic Peanut Butter,178,17
+Railway Station,Classic Waffle Mix,433,41
+Hospital Canteen,Homestyle Soda,73,28
+Hospital Canteen,Natural Turmeric,228,29
+Bus Terminal,Fresh Muesli,163,5
+Bus Terminal,Natural Soda,388,10
+Lakeview Branch,Organic Mayonnaise,338,36
+Highway Branch,Natural Ketchup,352,19
+Hilltop Store,Natural Spring Rolls,152,34
+Tech Park,Premium Gum,137,31
+Lakeview Branch,Homestyle Ketchup,494,9
+Highway Branch,Homestyle Mayonnaise,193,10
+University Store,Natural Muffin,357,45
+Garden District,Natural Croissant,104,47
+Railway Station,Homestyle Oats,477,20
+Mall Outlet,Homestyle Brownie Mix,293,30
+Highway Branch,Classic Peanuts,492,33
+Hospital Canteen,Premium Almonds,357,24
+University Store,Fresh Coriander,297,7
+Riverside Shop,Premium Flour,32,45
+Riverside Shop,Classic Mayonnaise,172,30
+Industrial Zone,Premium Coconut Water,111,6
+Downtown Store,Homestyle Biscuits,201,17
+Railway Station,Organic Brownie Mix,364,12
+Garden District,Organic Ketchup,183,48
+Mall Outlet,Premium Popcorn,132,8
+Bus Terminal,Natural Vinegar,236,50
+Tech Park,Homestyle Tea,28,24
+Tech Park,Classic Samosa,256,11
+Mall Outlet,Fresh Cornflakes,379,46
+Hospital Canteen,Homestyle Croissant,442,17
+Tech Park,Classic Syrup,352,35
+Lakeview Branch,Homestyle Flour,343,45
+Airport Kiosk,Natural Pita Bread,212,28
+Industrial Zone,Fresh Bread,247,45
+Industrial Zone,Fresh Flour,391,43
+Hospital Canteen,Natural Cream,383,39
+Railway Station,Premium Samosa,235,35
+Lakeview Branch,Organic Cinnamon,171,28
+University Store,Natural Cornflakes,303,42
+Lakeview Branch,Homestyle Brownie Mix,18,35
+Mall Outlet,Fresh Biscuits,355,42
+Industrial Zone,Natural Pita Bread,196,43
+Garden District,Natural Chapati,476,11
+Hospital Canteen,Fresh Pita Bread,360,40
+Highway Branch,Classic Pickle,481,35
+Downtown Store,Organic Muesli,336,13
+Riverside Shop,Fresh Soda,111,49
+Tech Park,Organic Herbal Tea,108,13
+Railway Station,Natural Pickle,292,17
+Bus Terminal,Classic Sauce,134,31
+Downtown Store,Fresh Milk,32,20
+Railway Station,Homestyle Tortilla,279,39
+University Store,Organic Crackers,184,36
+Bus Terminal,Organic Cashews,354,13
+Lakeview Branch,Natural Croissant,34,38
+University Store,Fresh Cheese,358,45
+Hilltop Store,Premium Cinnamon,32,42
+Hospital Canteen,Classic Butter,211,10
+Bus Terminal,Premium French Fries,341,28
+Hospital Canteen,Natural Coconut Water,307,15
+Highway Branch,Fresh Turmeric,354,28
+Hospital Canteen,Classic Black Tea,66,49
+Market Square,Premium Salt,284,36
+Hilltop Store,Organic Biscuits,445,32
+Airport Kiosk,Organic Rice,401,47
+Highway Branch,Homestyle Cake Mix,75,40
+Garden District,Classic Coconut Water,365,16
+Riverside Shop,Classic Pancake Mix,114,20
+Hospital Canteen,Organic Cake Mix,278,33
+Market Square,Natural Cake Mix,254,11
+Hospital Canteen,Homestyle Green Tea,457,17
+Hospital Canteen,Classic Tea,463,43
+Hilltop Store,Premium Sparkling Water,153,36
+Highway Branch,Premium Iced Tea,269,47
+University Store,Classic Chocolate Bar,377,36
+University Store,Premium Green Tea,141,48
+Hospital Canteen,Premium Sugar,17,34
+Hilltop Store,Organic Syrup,459,38
+Airport Kiosk,Organic Black Tea,388,5
+Industrial Zone,Organic Chicken Nuggets,281,27
+Lakeview Branch,Homestyle Pepper,25,38
+Market Square,Organic Muesli,478,39
+Bus Terminal,Premium Bread,206,24
+Tech Park,Classic Nutella,482,27
+Garden District,Organic Biscuits,382,48
+Hospital Canteen,Natural Gum,56,46
+Downtown Store,Premium Flour,271,5
+Mall Outlet,Organic Milk,287,46
+Market Square,Classic Ground Coffee,348,31
+Bus Terminal,Natural Spring Rolls,251,21
+University Store,Natural Noodles,222,10
+Riverside Shop,Fresh Mayonnaise,228,39
+Garden District,Homestyle Pancake Mix,373,40
+Railway Station,Premium Turmeric,99,29
+Garden District,Homestyle Sugar,151,29
+Garden District,Premium Yogurt,124,19
+Airport Kiosk,Fresh Cake Mix,418,33
+Bus Terminal,Fresh Fish Fillet,380,41
+Railway Station,Fresh Gum,101,35
+Riverside Shop,Classic Cream,440,14
+Highway Branch,Classic Oil,443,49
+Railway Station,Classic Bagel,456,15
+Market Square,Organic Ice Cream,315,9
+Hospital Canteen,Organic Milk,92,18
+Bus Terminal,Fresh Tortilla,105,40
+Industrial Zone,Homestyle Butter,255,20
+University Store,Premium Milk,25,25
+Highway Branch,Organic Frozen Pizza,307,23
+Downtown Store,Premium Flour,465,45
+Downtown Store,Fresh Sparkling Water,242,13
+Garden District,Premium Herbal Tea,13,44
+Bus Terminal,Classic Cashews,465,46
+Riverside Shop,Premium Ice Cream,83,43
+Mall Outlet,Fresh Ice Cream,181,42
+Bus Terminal,Premium Bagel,120,31
+Railway Station,Organic Cheese,292,39
+Garden District,Homestyle Frozen Pizza,479,25
+Riverside Shop,Organic Ice Cream,310,40
+Mall Outlet,Premium Spring Rolls,384,24
+Bus Terminal,Homestyle Mineral Water,118,29
+Railway Station,Premium Soup,104,44
+Bus Terminal,Homestyle Juice,270,38
+Hospital Canteen,Natural Mayonnaise,230,24
+Market Square,Homestyle Chicken Nuggets,304,48
+Hilltop Store,Premium Sauce,462,46
+Tech Park,Premium Muesli,231,12
+Airport Kiosk,Organic Cream,409,45
+Riverside Shop,Natural Coriander,129,21
+University Store,Classic Salt,370,43
+Industrial Zone,Premium Popcorn,33,32
+Airport Kiosk,Classic Turmeric,289,25
+Highway Branch,Premium Biscuits,245,21
+Bus Terminal,Natural Sugar,247,22
+Airport Kiosk,Premium Spring Rolls,327,15
+Mall Outlet,Organic Muffin,113,37
+University Store,Natural Oats,233,33
+Hospital Canteen,Premium Candy,462,9
+Garden District,Classic Crackers,469,44
+Mall Outlet,Classic Pancake Mix,280,41
+Tech Park,Natural Muesli,240,26
+Hospital Canteen,Natural Coffee,303,47
+Market Square,Classic Coriander,498,19
+Highway Branch,Homestyle Instant Coffee,95,43
+Downtown Store,Homestyle Butter,398,6
+Industrial Zone,Organic Pepper,165,42
+Downtown Store,Premium Flour,146,27
+Lakeview Branch,Organic Ice Cream,224,19
+Railway Station,Premium Sugar,281,28
+University Store,Organic Pasta,165,41
+Mall Outlet,Natural Black Tea,114,22
+University Store,Classic Cake Mix,94,23
+Railway Station,Organic Spring Rolls,440,47
+Lakeview Branch,Classic Coconut Water,240,11
+Highway Branch,Fresh Pasta,312,19
+Airport Kiosk,Classic Black Tea,466,8
+Garden District,Homestyle Bagel,208,26
+Airport Kiosk,Fresh Oats,190,17
+Industrial Zone,Homestyle Coconut Water,188,44
+Bus Terminal,Premium Milk,477,42
+Hilltop Store,Natural Gum,10,41
+Railway Station,Classic Noodles,80,37
+Highway Branch,Homestyle Herbal Tea,360,12
+Riverside Shop,Premium Soda,469,5
+Market Square,Natural Juice,286,36
+Garden District,Homestyle Rice,166,45
+Bus Terminal,Natural Jam,333,40
+Highway Branch,Homestyle Peanut Butter,359,35
+Airport Kiosk,Premium Peanut Butter,436,32
+Airport Kiosk,Organic Cornflakes,301,35
+Bus Terminal,Fresh Turmeric,297,46
+Tech Park,Natural Oats,371,20
+Tech Park,Premium French Fries,432,29
+Railway Station,Organic Biscuits,291,36
+Hilltop Store,Natural Green Tea,255,37
+Garden District,Premium Oil,476,26
+Downtown Store,Classic Sugar,450,8
+Hilltop Store,Homestyle Yogurt,149,22
+Hospital Canteen,Homestyle Jam,23,33
+Lakeview Branch,Organic Croissant,307,30
+Highway Branch,Natural Muffin,458,6
+Hilltop Store,Organic Almonds,8,33
+Riverside Shop,Fresh Crackers,363,16
+Lakeview Branch,Organic Pancake Mix,207,27
+Highway Branch,Premium Pita Bread,264,15
+Hospital Canteen,Fresh Tortilla,197,20
+Downtown Store,Premium Juice,318,24
+Hilltop Store,Organic Peanuts,377,27
+Railway Station,Natural Noodles,61,9
+Bus Terminal,Premium Paratha,163,18
+Riverside Shop,Natural Cashews,430,33
+Highway Branch,Fresh Chicken Nuggets,410,45
+Hospital Canteen,Natural Raisins,46,50
+Industrial Zone,Natural Chicken Nuggets,402,40
+Bus Terminal,Homestyle Oats,17,37
+Hilltop Store,Natural Pasta,155,5
+Bus Terminal,Premium Cheese,364,25
+Garden District,Fresh Cereal,353,40
+Garden District,Organic Bread,186,17
+Lakeview Branch,Premium Peanuts,173,44
+Hilltop Store,Natural Sugar,72,32
+Market Square,Fresh Cinnamon,445,44
+Hospital Canteen,Organic Sauce,393,34
+Lakeview Branch,Homestyle Gum,498,6
+Hospital Canteen,Organic Cashews,408,17
+Tech Park,Organic Oats,209,43
+Railway Station,Premium Pita Bread,93,9
+Garden District,Organic Samosa,273,11
+Hospital Canteen,Premium Crackers,280,20
+Market Square,Premium Bagel,400,6
+Tech Park,Classic Waffle Mix,93,35
+Tech Park,Natural Soup,479,26
+Airport Kiosk,Premium Bagel,291,40
+Garden District,Organic Nutella,57,23
+Lakeview Branch,Natural Herbal Tea,87,24
+Mall Outlet,Fresh Coriander,242,11
+Bus Terminal,Fresh Raisins,1,32
+Lakeview Branch,Fresh Jam,289,7
+Tech Park,Natural Pepper,190,38
+Airport Kiosk,Organic Sauce,208,40
+University Store,Homestyle Mustard,471,37
+Airport Kiosk,Classic Peanuts,217,38
+Industrial Zone,Organic French Fries,216,33
+Highway Branch,Fresh Vinegar,274,30
+Railway Station,Premium Coffee,341,31
+Downtown Store,Classic Peanut Butter,204,35
+Bus Terminal,Premium Pepper,478,27
+Riverside Shop,Premium Cereal,229,20
+Lakeview Branch,Classic Chapati,385,25
+University Store,Organic Green Tea,415,5
+Hospital Canteen,Homestyle Fish Fillet,387,45
+Hilltop Store,Classic Instant Coffee,226,35
+Industrial Zone,Homestyle Sauce,66,27
+Downtown Store,Fresh Bagel,20,16
+Hospital Canteen,Homestyle Turmeric,422,39
+Hilltop Store,Natural Brownie Mix,377,37
+Market Square,Organic Cumin,13,45
+Market Square,Classic Paratha,163,25
+Market Square,Premium Pita Bread,77,18
+Hospital Canteen,Natural Cheese,257,23
+Garden District,Premium Cornflakes,401,35
+Hilltop Store,Organic Waffle Mix,23,38
+Downtown Store,Organic Peanut Butter,147,12
+Downtown Store,Classic Oil,146,10
+Hospital Canteen,Organic Pepper,404,34
+Lakeview Branch,Classic Nutella,390,24
+Riverside Shop,Fresh Coconut Water,59,30
+Railway Station,Organic Butter,267,47
+Mall Outlet,Premium Frozen Pizza,392,48
+Tech Park,Organic Ice Cream,44,26
+Hilltop Store,Premium Ketchup,322,29
+Railway Station,Organic Coconut Water,118,46
+University Store,Organic Cheese,360,22
+Bus Terminal,Homestyle Honey,335,27
+Downtown Store,Organic Vinegar,21,24
+Hospital Canteen,Natural Cashews,154,7
+Hilltop Store,Natural Raisins,300,13
+Highway Branch,Homestyle Milk,244,6
+Railway Station,Classic Energy Drink,456,41
+Riverside Shop,Homestyle Mustard,19,46
+Railway Station,Fresh Peanut Butter,310,24
+Riverside Shop,Fresh Raisins,170,32
+Hilltop Store,Premium Jam,378,49
+Tech Park,Classic Ice Cream,332,37
+Downtown Store,Classic Croissant,347,19
+Garden District,Homestyle Noodles,201,18
+Market Square,Fresh Cinnamon,206,23
+Bus Terminal,Organic Croissant,445,15
+University Store,Premium Muesli,166,37
+Industrial Zone,Homestyle Frozen Veggies,49,36
+Downtown Store,Natural Mayonnaise,373,19
+Airport Kiosk,Premium Jam,33,23
+Tech Park,Homestyle Yogurt,341,16
+University Store,Fresh Frozen Pizza,331,45
+Tech Park,Classic Bread,313,45
+Tech Park,Homestyle Raisins,208,30
+Lakeview Branch,Fresh Soda,343,43
+Downtown Store,Homestyle Brownie Mix,20,7
+University Store,Premium Cereal,108,42
+Industrial Zone,Homestyle Raisins,280,6
+University Store,Homestyle Popcorn,498,40
+Tech Park,Homestyle Pita Bread,278,31
+Bus Terminal,Homestyle Flour,84,25
+Mall Outlet,Fresh Brownie Mix,5,48
+Riverside Shop,Premium Turmeric,56,33
+Downtown Store,Natural Sparkling Water,296,37
+Bus Terminal,Fresh Ketchup,37,36
+Tech Park,Organic Butter,487,42
+Market Square,Organic Frozen Pizza,454,30
+Railway Station,Natural Cumin,466,40
+Mall Outlet,Fresh Coriander,457,6
+Airport Kiosk,Classic Popcorn,320,39
+University Store,Premium Coriander,308,11
+Hilltop Store,Fresh Coffee,281,11
+Hospital Canteen,Organic Ketchup,51,29
+University Store,Premium Oil,133,31
+Railway Station,Organic Peanut Butter,189,33
+Airport Kiosk,Organic Cream,79,27
+Airport Kiosk,Premium Ground Coffee,55,13
+Bus Terminal,Premium Soda,303,37
+Bus Terminal,Premium Cashews,88,15
+Garden District,Homestyle Chapati,483,42
+Hospital Canteen,Classic Pancake Mix,255,45
+Riverside Shop,Fresh Peanut Butter,250,22
+Hospital Canteen,Organic Honey,284,8
+Hilltop Store,Natural Mineral Water,331,37
+Riverside Shop,Classic Bread,231,12
+Bus Terminal,Classic Chicken Nuggets,118,46
+Airport Kiosk,Organic Coconut Water,388,26
+Garden District,Natural Biscuits,48,32
+Downtown Store,Classic Cream,142,16
+Railway Station,Classic Oats,42,21
+Tech Park,Classic Samosa,394,21
+Bus Terminal,Organic Dates,459,31
+Hospital Canteen,Organic Jam,434,21
+University Store,Homestyle Muffin,53,28
+Highway Branch,Premium Frozen Veggies,133,23
+Hospital Canteen,Homestyle Mustard,337,37
+Lakeview Branch,Homestyle Sugar,73,43
+Industrial Zone,Classic Salt,212,43
+University Store,Homestyle Black Tea,188,21
+Mall Outlet,Homestyle Sauce,344,41
+Garden District,Classic Black Tea,58,19
+Industrial Zone,Homestyle Herbal Tea,418,34
+Market Square,Organic Cereal,130,43
+Market Square,Natural Cheese,424,32
+Highway Branch,Organic Juice,308,17
+Garden District,Natural Peanuts,413,17
+Bus Terminal,Fresh Soda,304,30
+Industrial Zone,Premium Oil,376,15
+University Store,Classic Frozen Veggies,88,35
+Hilltop Store,Premium Herbal Tea,1,50
+Garden District,Natural Cheese,144,47
+Hilltop Store,Organic Fish Fillet,159,32
+University Store,Classic Turmeric,390,22
+Downtown Store,Classic Butter,87,32
+Lakeview Branch,Organic French Fries,97,27
+Airport Kiosk,Fresh Spring Rolls,79,25
+Hospital Canteen,Premium Chips,197,10
+Market Square,Fresh Vinegar,73,32
+Lakeview Branch,Organic Peanut Butter,425,10
+Airport Kiosk,Natural Cumin,130,12
+Tech Park,Homestyle Turmeric,184,27
+Mall Outlet,Classic Cinnamon,4,41
+Hilltop Store,Premium Pickle,139,13
+Tech Park,Homestyle Bread,185,14
+Tech Park,Natural Oil,173,5
+Hospital Canteen,Premium Coconut Water,462,39
+Market Square,Homestyle Oil,31,37
+Industrial Zone,Fresh Frozen Veggies,331,38
+Industrial Zone,Fresh Cheese,356,5
+Bus Terminal,Fresh Milk,241,9
+Highway Branch,Premium Peanuts,96,18
+University Store,Organic Pasta,354,47
+Highway Branch,Homestyle Pasta,316,18
+Bus Terminal,Natural Cinnamon,479,11
+Lakeview Branch,Classic Milk,127,14
+Railway Station,Natural Milk,81,33
+Airport Kiosk,Fresh Dates,79,31
+Highway Branch,Premium Pita Bread,228,32
+Bus Terminal,Fresh Pita Bread,222,44
+Hospital Canteen,Classic Paratha,259,37
+Tech Park,Organic French Fries,297,45
+Tech Park,Fresh Pita Bread,390,29
+Market Square,Premium Tortilla,327,50
+Bus Terminal,Homestyle Samosa,150,42
+Hilltop Store,Organic Syrup,499,41
+University Store,Fresh Cream,310,44
+Airport Kiosk,Classic Flour,37,17
+Railway Station,Natural Juice,177,45
+Industrial Zone,Natural Biscuits,80,30
+Railway Station,Natural Jam,133,50
+Tech Park,Natural Pita Bread,493,5
+Industrial Zone,Homestyle Cinnamon,169,19
+Railway Station,Homestyle Coffee,216,33
+Hilltop Store,Natural Pasta,107,16
+Downtown Store,Fresh Sauce,38,30
+Mall Outlet,Classic Fish Fillet,365,50
+Garden District,Fresh Muesli,447,11
+Bus Terminal,Premium Bagel,305,5
+Hospital Canteen,Fresh Dates,154,7
+Industrial Zone,Fresh Soup,283,48
+Market Square,Fresh Cumin,96,17
+Mall Outlet,Homestyle Chips,163,47
+Industrial Zone,Homestyle Black Tea,49,37
+Downtown Store,Organic Herbal Tea,203,30
+University Store,Natural Candy,418,5
+Highway Branch,Fresh Energy Drink,216,13
+Market Square,Organic Mustard,444,12
+Tech Park,Natural Samosa,113,37
+Market Square,Classic Mayonnaise,354,44
+Hilltop Store,Classic Energy Drink,187,17
+Mall Outlet,Organic Whole Beans,181,22
+Garden District,Classic Herbal Tea,342,20
+Riverside Shop,Natural Butter,278,11
+Hospital Canteen,Natural Cheese,125,21
+Garden District,Organic Dates,440,25
+Riverside Shop,Classic Tea,43,6
+Hilltop Store,Premium Cumin,396,32
+Downtown Store,Natural Pasta,215,16
+Airport Kiosk,Homestyle Soda,194,27
+Downtown Store,Fresh Tortilla,203,7
+Highway Branch,Premium Iced Tea,467,46
+Highway Branch,Classic Chips,73,24
+Tech Park,Natural Biscuits,282,45
+Riverside Shop,Organic Chapati,74,26
+Mall Outlet,Homestyle Oil,400,40
+Lakeview Branch,Organic Brownie Mix,444,32
+Hilltop Store,Organic Iced Tea,482,20
+Hospital Canteen,Organic Cereal,489,31
+Highway Branch,Organic Cumin,30,38
+University Store,Organic Pasta,39,25
+Tech Park,Natural Salt,432,44
+Industrial Zone,Natural Cream,254,46
+Downtown Store,Premium Cashews,69,50
+Riverside Shop,Classic Black Tea,268,9
+Downtown Store,Natural Mineral Water,313,35
+Hilltop Store,Premium Vinegar,94,32
+Market Square,Premium Cashews,214,28
+Downtown Store,Natural Cumin,109,31
+Market Square,Organic Energy Drink,390,30
+Market Square,Classic Waffle Mix,414,48
+Industrial Zone,Fresh Flour,58,23
+Downtown Store,Premium Paratha,488,19
+Bus Terminal,Fresh Pickle,27,38
+Hilltop Store,Premium Muffin,42,22
+Garden District,Fresh Vinegar,296,6
+Airport Kiosk,Natural Waffle Mix,5,43
+Industrial Zone,Organic Nutella,13,8
+Hospital Canteen,Classic Turmeric,404,47
+Railway Station,Fresh Juice,203,7
+Bus Terminal,Organic Flour,323,16
+Hilltop Store,Classic Nutella,145,36
+University Store,Natural Cereal,422,25
+Industrial Zone,Homestyle Chips,229,44
+Market Square,Homestyle Soda,273,38
+Riverside Shop,Fresh Butter,32,19
+Highway Branch,Premium Waffle Mix,116,39
+Mall Outlet,Classic Ground Coffee,169,16
+Highway Branch,Natural Samosa,401,18
+Highway Branch,Organic Pita Bread,294,34
+Hilltop Store,Homestyle Ketchup,89,25
+University Store,Organic Honey,57,23
+Riverside Shop,Homestyle Oats,436,48
+Airport Kiosk,Natural Almonds,350,23
+Bus Terminal,Homestyle Brownie Mix,452,28
+University Store,Fresh Peanuts,328,10
+Market Square,Natural Coriander,205,24
+Hospital Canteen,Natural Chapati,137,34
+Market Square,Organic Soup,29,35
+Tech Park,Homestyle Rice,425,41
+Highway Branch,Homestyle Cream,138,32
+Airport Kiosk,Premium Dates,210,43
+Tech Park,Natural Ketchup,123,35
+Tech Park,Premium Honey,184,45
+Hilltop Store,Premium Ketchup,331,6
+University Store,Classic Muesli,470,26
+Market Square,Fresh Dates,276,36
+Hospital Canteen,Organic Honey,6,36
+Lakeview Branch,Premium Syrup,496,7
+Riverside Shop,Natural Cream,27,17
+Mall Outlet,Premium Chapati,404,14
+Mall Outlet,Homestyle Rice,449,9
+Garden District,Fresh Candy,392,28
+Riverside Shop,Homestyle Almonds,256,5
+University Store,Fresh Jam,107,20
+Mall Outlet,Classic Coffee,387,28
+Hilltop Store,Premium Ground Coffee,297,31
+University Store,Organic Yogurt,59,8
+Mall Outlet,Fresh Nutella,207,6
+Mall Outlet,Classic Herbal Tea,316,48
+Airport Kiosk,Classic Croissant,470,18
+Hospital Canteen,Fresh Noodles,3,32
+Highway Branch,Fresh Yogurt,414,29
+Downtown Store,Homestyle Cinnamon,290,18
+Mall Outlet,Premium Crackers,380,22
+Highway Branch,Homestyle Pita Bread,197,30
+Tech Park,Classic Nutella,116,19
+Mall Outlet,Premium Coriander,48,23
+Downtown Store,Classic Chicken Nuggets,281,14
+Airport Kiosk,Organic Herbal Tea,3,9
+Bus Terminal,Organic Raisins,353,33
+Mall Outlet,Natural Tortilla,406,42
+University Store,Premium Rice,238,21
+Downtown Store,Premium Tea,390,12
+Riverside Shop,Homestyle Pickle,326,41
+Hospital Canteen,Organic Chips,283,9
+Riverside Shop,Classic Ice Cream,363,5
+Downtown Store,Classic Pepper,424,26
+Railway Station,Homestyle Brownie Mix,225,19
+Hilltop Store,Premium Oats,80,31
+Airport Kiosk,Premium Soup,306,28
+Mall Outlet,Natural Bread,409,32
+Airport Kiosk,Premium Muesli,93,21
+Mall Outlet,Fresh Cashews,333,6
+Highway Branch,Homestyle Peanuts,95,38
+Garden District,Homestyle Chapati,192,35
+Mall Outlet,Organic Ketchup,203,31
+Hospital Canteen,Homestyle Frozen Veggies,216,6
+Highway Branch,Fresh Bagel,297,15
+Airport Kiosk,Premium Ketchup,452,33
+Bus Terminal,Premium Chapati,147,10
+Hilltop Store,Fresh Brownie Mix,296,7
+Hospital Canteen,Natural Bread,43,36
+Hospital Canteen,Fresh Jam,77,13
+Lakeview Branch,Natural Biscuits,442,48
+Riverside Shop,Classic Waffle Mix,316,36
+Lakeview Branch,Classic Salt,346,27
+Highway Branch,Premium Almonds,62,25
+Market Square,Premium Syrup,483,38
+Riverside Shop,Homestyle Peanuts,465,38
+Riverside Shop,Classic Biscuits,365,12
+Railway Station,Classic Sauce,373,40
+Tech Park,Fresh Energy Drink,50,35
+Mall Outlet,Premium Rice,443,12
+Mall Outlet,Organic Coriander,132,15
+Lakeview Branch,Fresh Instant Coffee,59,15
+University Store,Homestyle Popcorn,412,37
+University Store,Premium Soup,454,24
+Railway Station,Premium Samosa,111,9
+Industrial Zone,Homestyle Cornflakes,478,18
+Bus Terminal,Organic Crackers,472,35
+Industrial Zone,Classic Pepper,453,50
+University Store,Organic Energy Drink,293,5
+Hilltop Store,Premium Sparkling Water,205,43
+Hospital Canteen,Fresh Peanut Butter,463,25
+Hilltop Store,Organic Ketchup,277,27
+Bus Terminal,Homestyle Frozen Pizza,416,5
+Airport Kiosk,Fresh Iced Tea,3,12
+Hilltop Store,Classic Butter,46,36
+Railway Station,Classic Black Tea,464,10
+Bus Terminal,Organic Chips,198,11
+Airport Kiosk,Homestyle Coffee,448,7
+Mall Outlet,Organic Herbal Tea,344,13
+Bus Terminal,Fresh Mustard,272,19
+Tech Park,Organic Soda,340,38
+Hilltop Store,Classic Cornflakes,332,10
+Bus Terminal,Fresh Flour,15,20
+Hospital Canteen,Natural Milk,300,29
+Hospital Canteen,Classic Mustard,216,21
+Downtown Store,Organic Noodles,32,41
+Mall Outlet,Homestyle Pickle,396,46
+Industrial Zone,Homestyle Whole Beans,466,25
+University Store,Classic Crackers,66,30
+Lakeview Branch,Organic Mustard,363,33
+Market Square,Classic Honey,491,14
+Tech Park,Fresh Tortilla,38,12
+Railway Station,Classic Coconut Water,143,18
+University Store,Homestyle Bagel,352,16
+University Store,Homestyle Jam,362,9
+Tech Park,Organic Chicken Nuggets,129,35
+Hospital Canteen,Classic Sparkling Water,149,47
+Railway Station,Premium French Fries,73,22
+Industrial Zone,Homestyle Samosa,270,14
+Highway Branch,Fresh Gum,487,8
+Hilltop Store,Premium Cream,458,23
+Highway Branch,Homestyle Frozen Veggies,37,10
+Railway Station,Classic Croissant,261,21
+Railway Station,Organic Mayonnaise,114,38
+Garden District,Natural Samosa,414,27
+Mall Outlet,Homestyle Bread,359,26
+Riverside Shop,Organic Waffle Mix,121,22
+Industrial Zone,Homestyle Turmeric,216,30
+Hospital Canteen,Organic Pancake Mix,33,36
+University Store,Premium Cream,131,25
+Airport Kiosk,Homestyle Pita Bread,473,19
+Mall Outlet,Premium Fish Fillet,385,22
+Riverside Shop,Classic Salt,161,5
+Railway Station,Organic Sauce,398,25
+Hilltop Store,Classic Pickle,147,11
+Mall Outlet,Homestyle Cumin,451,18
+Bus Terminal,Classic Pancake Mix,334,11
+Industrial Zone,Fresh Coriander,328,48
+University Store,Homestyle Cheese,217,20
+Hilltop Store,Organic Herbal Tea,387,48
+Downtown Store,Natural Chips,278,43
+Tech Park,Homestyle Pepper,23,45
+Bus Terminal,Natural Coriander,219,41
+Tech Park,Homestyle Pepper,383,25
+Bus Terminal,Homestyle Chicken Nuggets,192,8
+Mall Outlet,Natural Coconut Water,409,38
+Airport Kiosk,Organic Butter,140,11
+Lakeview Branch,Homestyle Cornflakes,165,45
+Tech Park,Fresh Chicken Nuggets,327,23
+Bus Terminal,Fresh Waffle Mix,428,36
+Airport Kiosk,Fresh Almonds,136,49
+Airport Kiosk,Premium Pepper,335,46
+Tech Park,Natural Croissant,240,20
+Railway Station,Homestyle Tortilla,308,35
+Downtown Store,Organic Mineral Water,340,32
+Market Square,Homestyle Pancake Mix,184,14
+Tech Park,Premium Muesli,428,20
+Mall Outlet,Homestyle Pickle,414,49
+Bus Terminal,Classic Cheese,441,25
+Downtown Store,Fresh Iced Tea,2,41
+Airport Kiosk,Natural Rice,9,10
+Industrial Zone,Homestyle Chicken Nuggets,59,38
+Hospital Canteen,Natural Peanut Butter,203,40
+Riverside Shop,Homestyle Candy,229,22
+Hilltop Store,Organic Yogurt,377,44
+Hospital Canteen,Fresh Oil,289,6
+Hospital Canteen,Homestyle Iced Tea,403,47
+Hospital Canteen,Organic Pasta,306,27
+Bus Terminal,Classic Croissant,292,14
+Market Square,Organic Coriander,271,22
+Bus Terminal,Homestyle Herbal Tea,78,29
+Railway Station,Natural Jam,25,30
+Airport Kiosk,Homestyle Frozen Pizza,449,43
+Riverside Shop,Homestyle Salt,456,16
+University Store,Organic Popcorn,218,45
+Mall Outlet,Organic Soda,305,27
+Tech Park,Fresh Cream,18,49
+Lakeview Branch,Homestyle Iced Tea,472,45
+Tech Park,Classic Waffle Mix,404,29
+Highway Branch,Homestyle Ice Cream,249,37
+Hilltop Store,Classic Whole Beans,456,44
+Downtown Store,Natural Vinegar,500,39
+Lakeview Branch,Homestyle Fish Fillet,335,8
+Railway Station,Natural Sauce,409,17
+Mall Outlet,Homestyle Bagel,62,14
+Hilltop Store,Classic Pickle,60,34
+Industrial Zone,Natural Ice Cream,170,43
+Highway Branch,Classic Sparkling Water,283,14
+Garden District,Classic Cereal,450,15
+Airport Kiosk,Fresh Raisins,489,10
+Highway Branch,Premium Cheese,199,36
+Bus Terminal,Organic Bagel,177,5
+Tech Park,Homestyle Cumin,362,18
+Market Square,Classic Chocolate Bar,176,32
+Mall Outlet,Premium Cream,89,49
+Bus Terminal,Homestyle Crackers,59,21
+Mall Outlet,Fresh Sauce,142,16
+Bus Terminal,Homestyle Chips,362,36
+Airport Kiosk,Organic Cake Mix,103,25
+Hilltop Store,Natural Tea,119,49
+Bus Terminal,Classic Almonds,130,16
+Industrial Zone,Classic Bread,51,48
+Industrial Zone,Fresh Peanut Butter,369,14
+Downtown Store,Natural Croissant,129,16
+Downtown Store,Premium Spring Rolls,304,20
+Industrial Zone,Natural Oil,133,12
+Hospital Canteen,Homestyle Coffee,260,34
+Mall Outlet,Natural Waffle Mix,362,44
+University Store,Organic Cake Mix,175,8
+Tech Park,Homestyle Honey,168,41
+Highway Branch,Homestyle Honey,491,26
+Airport Kiosk,Classic Coconut Water,462,46
+Garden District,Classic Spring Rolls,1,41
+Hospital Canteen,Premium Oats,352,48
+Market Square,Natural Tea,253,43
+Garden District,Homestyle Almonds,310,19
+Railway Station,Fresh Croissant,343,16
+Bus Terminal,Fresh Ketchup,235,42
+Hospital Canteen,Premium Muffin,76,19
+Market Square,Homestyle Sparkling Water,320,11
+Railway Station,Homestyle Mayonnaise,401,9
+Highway Branch,Natural Ice Cream,76,10
+Airport Kiosk,Premium Sugar,53,11
+Hilltop Store,Classic Instant Coffee,325,9
+Airport Kiosk,Homestyle Noodles,106,8
+Mall Outlet,Organic Noodles,243,26
+Airport Kiosk,Premium Pepper,484,48
+Downtown Store,Fresh Tea,444,21
+Railway Station,Natural Ground Coffee,142,38
+Tech Park,Homestyle Syrup,416,23
+Lakeview Branch,Homestyle Instant Coffee,448,11
+Highway Branch,Fresh Mayonnaise,71,13
+Highway Branch,Fresh Candy,438,15
+Industrial Zone,Organic Sauce,285,35
+Garden District,Fresh Energy Drink,268,25
+Industrial Zone,Homestyle Peanuts,440,35
+Downtown Store,Homestyle Cake Mix,387,41
+University Store,Fresh Soup,299,11
+Airport Kiosk,Natural Salt,6,38
+Hospital Canteen,Natural Energy Drink,449,33
+Market Square,Fresh Muesli,245,44
+Highway Branch,Organic French Fries,115,12
+Railway Station,Classic Sauce,484,40
+Highway Branch,Organic Croissant,192,46
+Downtown Store,Natural Cornflakes,3,44
+Garden District,Natural Samosa,107,33
+Mall Outlet,Premium Pepper,54,44
+Airport Kiosk,Organic Crackers,473,33
+Tech Park,Natural Crackers,154,22
+Lakeview Branch,Natural Paratha,278,40
+Garden District,Homestyle Pancake Mix,411,20
+Market Square,Organic Bread,101,33
+Hilltop Store,Fresh Chicken Nuggets,332,33
+Industrial Zone,Homestyle Frozen Pizza,411,19
+Market Square,Organic French Fries,49,19
+Garden District,Fresh Soup,228,8
+Hilltop Store,Fresh Mineral Water,294,22
+Railway Station,Fresh Oil,156,28
+Hospital Canteen,Fresh Syrup,15,33
+Tech Park,Natural Yogurt,451,5
+Downtown Store,Premium Sugar,467,19
+Industrial Zone,Premium Cereal,164,46
+Market Square,Natural Muesli,66,18
+Industrial Zone,Fresh Ground Coffee,282,11
+Hilltop Store,Organic French Fries,398,37
+Downtown Store,Homestyle Vinegar,284,16
+Riverside Shop,Homestyle Biscuits,381,19
+Market Square,Premium Sugar,29,13
+Lakeview Branch,Classic Paratha,273,22
+Bus Terminal,Natural Oil,302,40
+Garden District,Fresh Sugar,492,26
+Market Square,Natural Cheese,376,27
+Airport Kiosk,Premium Syrup,35,28
+Railway Station,Homestyle Brownie Mix,150,11
+Hospital Canteen,Classic Black Tea,435,20
+Airport Kiosk,Homestyle Frozen Veggies,17,33
+Garden District,Organic Cheese,195,31
+Railway Station,Homestyle Mayonnaise,456,36
+Downtown Store,Homestyle Juice,455,47
+Lakeview Branch,Premium Coconut Water,109,19

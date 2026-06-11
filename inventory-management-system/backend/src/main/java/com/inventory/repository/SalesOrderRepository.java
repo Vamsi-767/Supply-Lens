@@ -18,6 +18,7 @@ public interface SalesOrderRepository extends JpaRepository<SalesOrder, Long> {
     List<SalesOrder> findByStoreBranchId(Long storeBranchId);
     List<SalesOrder> findByStatus(SalesOrder.OrderStatus status);
     List<SalesOrder> findByOrderDateBetween(LocalDateTime start, LocalDateTime end);
+    Optional<SalesOrder> findByOrderNumber(String orderNumber);
     
     @Query("SELECT o FROM SalesOrder o WHERE o.storeBranch.id = :branchId AND o.orderDate BETWEEN :start AND :end")
     List<SalesOrder> findByBranchAndDateRange(@Param("branchId") Long branchId, @Param("start") LocalDateTime start, @Param("end") LocalDateTime end);
