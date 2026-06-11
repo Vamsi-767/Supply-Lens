@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+target/
+*.class
+*.jar
+
+# Local environment files
+.env.local
+.env.*.local
+
+# IDE and OS files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Local/duplicate workspace artifacts
+-p/
+inventory-management-system-backend/

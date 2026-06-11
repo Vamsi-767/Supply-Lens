@@ -1,0 +1,22 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "react",
+  "nodeVersion": "18.x",
+  "env": {
+    "VITE_API_URL": "@api-url"
+  },
+  "env.PREVIEW": {
+    "VITE_API_URL": "@api-url-preview"
+  },
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
