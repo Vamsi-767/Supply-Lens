@@ -60,7 +60,7 @@ public class CsvDataLoader implements CommandLineRunner {
 
         Map<String, Category> catCache = new HashMap<>();
         int loaded = 0;
-        int maxRows = 5000;
+        int maxRows = 500;
 
         try (CSVReader reader = new CSVReader(new InputStreamReader(res.getInputStream()))) {
             String[] header = reader.readNext();
@@ -228,7 +228,7 @@ public class CsvDataLoader implements CommandLineRunner {
             Map<String, Integer> idx = index(header);
 
             String[] row;
-            while ((row = reader.readNext()) != null) {
+            while ((row = reader.readNext()) != null && poCount < 150) {
                 String supplierName = safe(row, idx, "Supplier name", "Supplier_name", "supplier_name", "Supplier");
                 if (supplierName.isBlank()) continue;
                 if (supplierName.length() > 150) supplierName = supplierName.substring(0, 150);
@@ -245,7 +245,7 @@ public class CsvDataLoader implements CommandLineRunner {
                                     .supplierName(finalSupplierName)
                                     .contactPerson("Contact Person")
                                     .email(finalSupplierName.replaceAll("[^a-zA-Z0-9]", "").toLowerCase() + "@supplier.com")
-                                    .phone("+1-555-0000")
+                                    .phone("+1-" + (200 + new Random().nextInt(800)) + "-" + (100 + new Random().nextInt(900)) + "-" + (1000 + new Random().nextInt(9000)))
                                     .city("New York").state("NY").postalCode("10001").country("USA")
                                     .paymentTerms("Net 30")
                                     .leadTimeDays(parseInt(safe(capturedRow, capturedIdx, "Lead time", "Lead_time", "lead_time", "Lead Time"), 7))
@@ -282,6 +282,8 @@ public class CsvDataLoader implements CommandLineRunner {
                 });
 
                 int orderQty = parseInt(safe(row, idx, "Order quantities", "Order_quantities", "order_quantities"), 50);
+                // Cap quantity to keep PO values small-business appropriate
+                if (orderQty > 100) orderQty = 20 + new Random().nextInt(80);
                 BigDecimal lineTotal = product.getCostPrice().multiply(BigDecimal.valueOf(orderQty));
 
                 PurchaseOrderItem poItem = PurchaseOrderItem.builder()
@@ -357,7 +359,7 @@ public class CsvDataLoader implements CommandLineRunner {
                         .firstName("Customer")
                         .lastName(uid.substring(0, Math.min(8, uid.length())))
                         .email(email)
-                        .phone("+55-00-0000-0000")
+                        .phone("+1-" + (200 + new Random().nextInt(800)) + "-" + (100 + new Random().nextInt(900)) + "-" + (1000 + new Random().nextInt(9000)))
                         .documentType("CPF")
                         .documentNumber(uid.substring(0, Math.min(14, uid.length())))
                         .zipCode(zip.isBlank() ? "00000" : zip)
@@ -421,7 +423,7 @@ public class CsvDataLoader implements CommandLineRunner {
 
         Random rng = new Random(42);
         int loaded = 0;
-        int maxOrders = 10000;
+        int maxOrders = 800;
 
         try (CSVReader reader = new CSVReader(new InputStreamReader(ordersRes.getInputStream()))) {
             String[] header = reader.readNext();
@@ -520,7 +522,9 @@ public class CsvDataLoader implements CommandLineRunner {
     }
 
     private BigDecimal randomPrice(double min, double max) {
-        return BigDecimal.valueOf(min + Math.random() * (max - min)).setScale(2, java.math.RoundingMode.HALF_UP);
+        // Keep prices small for small business (max $45)
+        double capped = Math.min(max, 45.0);
+        return BigDecimal.valueOf(min + Math.random() * (capped - min)).setScale(2, java.math.RoundingMode.HALF_UP);
     }
 
     private LocalDateTime parseDateTime(String s) {

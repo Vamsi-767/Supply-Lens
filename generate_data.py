@@ -107,8 +107,8 @@ with open(f"{OUTPUT_DIR}/retail_store_inventory.csv", "w", newline="", encoding=
     for i in range(2000):
         store = random.choice(stores)
         product = random.choice(retail_products)
-        stock = random.randint(0, 500)
-        reorder = random.randint(5, 50)
+        stock = random.randint(2, 80)
+        reorder = random.randint(5, 25)
         writer.writerow([store, product, stock, reorder])
 
 print("  ✓ retail_store_inventory.csv (2000 rows)")
@@ -117,14 +117,14 @@ print("  ✓ retail_store_inventory.csv (2000 rows)")
 print("Generating Supply Chain data (1500 rows)...")
 
 supplier_names = [
-    "Metro Distributors", "City Supply Co", "FreshLink Trading", "QuickShip Logistics",
-    "BulkBuy Wholesale", "PrimePack Solutions", "GreenRoute Suppliers", "FastTrack Commerce",
-    "ValueChain Partners", "DirectSource Ltd", "MegaStock Inc", "SwiftDelivery Co",
-    "TrustTrade Global", "EasySupply Hub", "NetWorth Distributors", "ProPack Trading",
-    "SmartSource Inc", "AllGoods Wholesale", "RapidStock Co", "BestValue Suppliers",
-    "TopShelf Trading", "ClearPath Logistics", "SafeShip Co", "BrightStar Distributors",
-    "CoreSupply Partners", "MaxFlow Trading", "PeakPerform Supply", "SteadyStock Inc",
-    "ReliableSource Co", "TrueValue Wholesale"
+    "FreshMart Distributors", "GreenValley Foods", "QuickStock Supply Co", "PrimeFresh Trading",
+    "ValuePack Wholesale", "CityLink Logistics", "DailyGoods Partners", "FastRoute Commerce",
+    "TrustChain Supply", "BrightPath Distributors", "SteadyFlow Trading", "AllStar Wholesale",
+    "NorthStar Logistics", "PeakFresh Supply", "SafeHands Delivery", "CorePath Trading",
+    "BlueLine Distributors", "GoldStar Wholesale", "EveryDay Supply Co", "SmartShelf Trading",
+    "ClearView Logistics", "TopLine Distributors", "WellStock Partners", "FairTrade Supply",
+    "SunRise Wholesale", "MidWest Distributors", "EastCoast Supply Co", "PacificRim Trading",
+    "GreatLakes Wholesale", "SouthBay Distributors"
 ]
 
 supply_product_types = [

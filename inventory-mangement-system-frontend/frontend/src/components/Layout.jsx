@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
 import BarChart3 from 'lucide-react/dist/esm/icons/bar-chart-3.mjs'
 import Bell from 'lucide-react/dist/esm/icons/bell.mjs'
@@ -8,14 +8,21 @@ import ChevronLeft from 'lucide-react/dist/esm/icons/chevron-left.mjs'
 import ChevronRight from 'lucide-react/dist/esm/icons/chevron-right.mjs'
 import ClipboardList from 'lucide-react/dist/esm/icons/clipboard-list.mjs'
 import LayoutDashboard from 'lucide-react/dist/esm/icons/layout-dashboard.mjs'
-import LogOut from 'lucide-react/dist/esm/icons/log-out.mjs'
 import PackageSearch from 'lucide-react/dist/esm/icons/package-search.mjs'
 import Search from 'lucide-react/dist/esm/icons/search.mjs'
 import ShoppingCart from 'lucide-react/dist/esm/icons/shopping-cart.mjs'
 import Warehouse from 'lucide-react/dist/esm/icons/warehouse.mjs'
+import X from 'lucide-react/dist/esm/icons/x.mjs'
+import api from '../services/api'
 
 export default function Layout({ children }) {
   const [sidebarOpen, setSidebarOpen] = useState(() => (typeof window === 'undefined' ? true : window.innerWidth >= 1024))
+  const [searchOpen, setSearchOpen] = useState(false)
+  const [notifOpen, setNotifOpen] = useState(false)
+  const [searchQuery, setSearchQuery] = useState('')
+  const [searchResults, setSearchResults] = useState(null)
+  const [searching, setSearching] = useState(false)
+  const searchRef = useRef(null)
   const navigate = useNavigate()
   const location = useLocation()
 
@@ -31,46 +38,96 @@ export default function Layout({ children }) {
 
   const isActive = (path) => location.pathname === path
 
+  // Global search with debounce
+  useEffect(() => {
+    if (!searchQuery || searchQuery.length < 2) {
+      setSearchResults(null)
+      return
+    }
+    const timer = setTimeout(() => {
+      setSearching(true)
+      Promise.all([
+        api.get('/products').catch(() => ({ data: [] })),
+        api.get('/suppliers').catch(() => ({ data: [] })),
+        api.get('/orders').catch(() => ({ data: [] })),
+      ]).then(([products, suppliers, orders]) => {
+        const q = searchQuery.toLowerCase()
+        const matchedProducts = products.data
+          .filter((p) => p.name.toLowerCase().includes(q) || p.sku.toLowerCase().includes(q))
+          .slice(0, 5)
+        const matchedSuppliers = suppliers.data
+          .filter((s) => s.name.toLowerCase().includes(q))
+          .slice(0, 3)
+        const matchedOrders = orders.data
+          .filter((o) => o.orderNumber.toLowerCase().includes(q) || o.customer.toLowerCase().includes(q))
+          .slice(0, 5)
+        setSearchResults({ products: matchedProducts, suppliers: matchedSuppliers, orders: matchedOrders })
+        setSearching(false)
+      })
+    }, 300)
+    return () => clearTimeout(timer)
+  }, [searchQuery])
+
+  useEffect(() => {
+    setSearchOpen(false)
+    setSearchQuery('')
+    setSearchResults(null)
+  }, [location.pathname])
+
+  useEffect(() => {
+    const handler = (e) => {
+      if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+        e.preventDefault()
+        setSearchOpen(true)
+        setTimeout(() => searchRef.current?.focus(), 100)
+      }
+      if (e.key === 'Escape') {
+        setSearchOpen(false)
+        setSearchQuery('')
+      }
+    }
+    window.addEventListener('keydown', handler)
+    return () => window.removeEventListener('keydown', handler)
+  }, [])
+
   return (
     <div className="app-shell flex min-h-screen">
+      {/* Sidebar */}
       <aside
-        className={`glass-panel fixed inset-y-0 left-0 z-50 flex flex-col rounded-none border-y-0 border-l-0 transition-all duration-300 lg:sticky ${
-          sidebarOpen ? 'w-72' : 'w-16 lg:w-24'
+        className={`fixed inset-y-0 left-0 z-50 flex flex-col border-r border-slate-200 bg-white transition-all duration-300 lg:sticky lg:top-0 lg:h-screen ${
+          sidebarOpen ? 'w-64' : 'w-16 lg:w-16'
         }`}
       >
-        <div
-          className={`flex h-24 border-b border-white/10 ${
-            sidebarOpen ? 'items-center justify-between px-5' : 'flex-col items-center justify-center gap-2 px-2'
-          }`}
-        >
+        <div className={`flex h-16 items-center border-b border-slate-100 ${sidebarOpen ? 'justify-between px-4' : 'justify-center px-2'}`}>
           <button
             type="button"
             onClick={() => navigate('/dashboard')}
-            className={`flex min-w-0 items-center gap-3 ${sidebarOpen ? 'justify-start' : 'justify-center'}`}
+            className={`flex items-center gap-2.5 ${sidebarOpen ? '' : 'justify-center'}`}
             aria-label="Open dashboard"
           >
-              <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg border border-emerald-200/20 bg-emerald-300/10 text-emerald-100 shadow-[0_0_32px_rgba(16,185,129,0.16)]">
-              <Warehouse size={25} />
+            <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 text-white shadow-lg shadow-indigo-500/20">
+              <Warehouse size={18} />
             </div>
             {sidebarOpen && (
-              <div className="min-w-0 text-left">
-                <p className="gradient-text text-lg font-semibold leading-5">Supply Lens</p>
-                <p className="mt-1 text-xs font-medium uppercase tracking-[0.22em] text-slate-500">Operations</p>
+              <div>
+                <p className="text-sm font-bold text-slate-900">Supply Lens</p>
+                <p className="text-[10px] text-slate-400">Inventory System</p>
               </div>
             )}
           </button>
-
-          <button
-            type="button"
-            onClick={() => setSidebarOpen(!sidebarOpen)}
-            className="icon-button"
-            aria-label={sidebarOpen ? 'Collapse sidebar' : 'Expand sidebar'}
-          >
-            {sidebarOpen ? <ChevronLeft size={18} /> : <ChevronRight size={18} />}
-          </button>
+          {sidebarOpen && (
+            <button type="button" onClick={() => setSidebarOpen(false)} className="text-slate-500 hover:text-white" aria-label="Collapse">
+              <ChevronLeft size={16} />
+            </button>
+          )}
+          {!sidebarOpen && (
+            <button type="button" onClick={() => setSidebarOpen(true)} className="absolute -right-3 top-5 hidden rounded-full border border-slate-200 bg-white p-1 text-slate-400 hover:text-indigo-600 shadow-sm lg:flex" aria-label="Expand">
+              <ChevronRight size={12} />
+            </button>
+          )}
         </div>
 
-        <nav className="flex-1 space-y-2 px-4 py-6">
+        <nav className="flex-1 space-y-1 px-2 py-4">
           {menuItems.map((item) => {
             const Icon = item.icon
             return (
@@ -78,73 +135,213 @@ export default function Layout({ children }) {
                 key={item.path}
                 type="button"
                 onClick={() => navigate(item.path)}
-                className={`nav-link ${isActive(item.path) ? 'nav-link-active' : ''} ${
-                  sidebarOpen ? '' : 'justify-center px-0'
-                }`}
+                className={`nav-link ${isActive(item.path) ? 'nav-link-active' : ''} ${sidebarOpen ? '' : 'justify-center px-0'}`}
                 aria-label={item.name}
                 title={!sidebarOpen ? item.name : undefined}
               >
-                <Icon className="shrink-0" size={19} />
+                <Icon className="shrink-0" size={18} />
                 {sidebarOpen && <span className="truncate">{item.name}</span>}
               </button>
             )
           })}
         </nav>
 
-        <div className="border-t border-white/10 p-4">
-          <div className={`mb-4 rounded-lg border border-white/10 bg-white/[0.045] p-3 ${sidebarOpen ? '' : 'hidden'}`}>
-            <div className="flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-cyan-300/12 text-cyan-100">
-                <PackageSearch size={18} />
-              </div>
-              <div>
-                <p className="text-sm font-semibold text-white">Live Sync</p>
-                <p className="text-xs text-emerald-200/80">All lanes healthy</p>
-              </div>
+        <div className="border-t border-slate-100 p-3">
+          {sidebarOpen && (
+            <div className="mb-3 flex items-center gap-2 rounded-xl bg-emerald-50 px-3 py-2">
+              <span className="live-pulse h-2 w-2 rounded-full bg-emerald-500" />
+              <span className="text-xs text-emerald-700 font-medium">System Online</span>
             </div>
+          )}
+          <div className={`flex items-center gap-2.5 ${sidebarOpen ? 'px-2' : 'justify-center'}`}>
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-gradient-to-br from-indigo-500 to-purple-500 text-xs font-bold text-white">
+              A
+            </div>
+            {sidebarOpen && (
+              <div>
+                <p className="text-xs font-medium text-slate-800">Admin</p>
+                <p className="text-[10px] text-slate-400">Store Manager</p>
+              </div>
+            )}
           </div>
-          <button
-            type="button"
-            onClick={() => navigate('/dashboard')}
-            className={`action-ghost w-full text-rose-200 hover:text-rose-100 ${sidebarOpen ? '' : 'px-0'}`}
-            aria-label="Public demo"
-            title={!sidebarOpen ? 'Public demo' : undefined}
-          >
-            <LogOut size={18} />
-            {sidebarOpen && <span>Public Demo</span>}
-          </button>
         </div>
       </aside>
 
-      <div className="main-content flex flex-col">
-        <header className="sticky top-0 z-40 border-b border-white/10 bg-[#080a0e]/72 px-4 py-4 backdrop-blur-2xl md:px-8">
+      {/* Main */}
+      <div className="main-content flex min-h-screen flex-col">
+        <header className="sticky top-0 z-40 border-b border-slate-200 bg-white/95 px-4 py-3 backdrop-blur-sm md:px-6">
           <div className="mx-auto flex max-w-7xl items-center justify-between gap-4">
-            <div className="hidden min-w-0 flex-1 items-center gap-3 rounded-lg border border-white/10 bg-white/[0.055] px-4 py-3 text-slate-400 md:flex">
-              <Search size={18} />
-              <span className="truncate text-sm">Search orders, SKUs, suppliers, lanes</span>
-            </div>
+            {/* Search */}
+            <button
+              type="button"
+              onClick={() => { setSearchOpen(true); setTimeout(() => searchRef.current?.focus(), 100) }}
+              className="hidden flex-1 items-center gap-2.5 rounded-xl border border-slate-200 bg-slate-50 px-4 py-2 text-left text-slate-400 transition-colors hover:border-indigo-200 hover:bg-indigo-50 md:flex"
+            >
+              <Search size={15} />
+              <span className="flex-1 text-sm">Search products, orders, suppliers...</span>
+              <kbd className="rounded border border-slate-200 bg-slate-100 px-1.5 py-0.5 text-[10px] font-medium text-slate-400">⌘K</kbd>
+            </button>
 
-            <div className="ml-auto flex items-center gap-3">
-              <button type="button" className="icon-button" aria-label="Notifications">
-                <Bell size={18} />
+            <div className="ml-auto flex items-center gap-2">
+              <button type="button" className="icon-button relative md:hidden" onClick={() => { setSearchOpen(true); setTimeout(() => searchRef.current?.focus(), 100) }} aria-label="Search">
+                <Search size={15} />
               </button>
-              <div className="flex items-center gap-3 rounded-lg border border-white/10 bg-white/[0.055] px-3 py-2">
-                <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br from-emerald-200 to-cyan-200 text-sm font-bold text-slate-950">
-                  D
-                </div>
-                <div className="hidden text-right sm:block">
-                  <p className="text-sm font-semibold text-white">Demo User</p>
-                  <p className="text-xs text-slate-500">Public customer demo</p>
-                </div>
+              <div className="relative">
+                <button type="button" className="icon-button relative" aria-label="Notifications" onClick={() => setNotifOpen(!notifOpen)}>
+                  <Bell size={15} />
+                  <span className="absolute right-1 top-1 h-2 w-2 rounded-full bg-red-500" />
+                </button>
+                {notifOpen && (
+                  <div className="absolute right-0 top-full mt-2 w-72 rounded-xl border border-slate-200 bg-white p-3 shadow-xl">
+                    <p className="mb-2 text-xs font-bold text-slate-800">Notifications</p>
+                    <div className="space-y-2 text-xs">
+                      <div className="rounded-lg bg-red-50 border border-red-100 p-2.5">
+                        <p className="font-medium text-red-800">Low stock alert</p>
+                        <p className="text-red-600/70">12 items below reorder point</p>
+                      </div>
+                      <div className="rounded-lg bg-blue-50 border border-blue-100 p-2.5">
+                        <p className="font-medium text-blue-800">New order received</p>
+                        <p className="text-blue-600/70">Order #OL-4829 — $42.50</p>
+                      </div>
+                      <div className="rounded-lg bg-green-50 border border-green-100 p-2.5">
+                        <p className="font-medium text-green-800">PO delivered</p>
+                        <p className="text-green-600/70">PO-7A3F from FreshMart Distributors</p>
+                      </div>
+                    </div>
+                  </div>
+                )}
+              </div>
+              <div className="hidden items-center gap-2 rounded-xl border border-emerald-200 bg-emerald-50 px-3 py-1.5 sm:flex">
+                <span className="live-pulse h-2 w-2 rounded-full bg-emerald-500" />
+                <span className="text-xs font-medium text-emerald-700">Live</span>
               </div>
             </div>
           </div>
         </header>
 
-        <main className="flex-1 px-4 py-6 md:px-8 md:py-8">
+        <main className="flex-1 px-4 py-6 md:px-6 md:py-6">
           <div className="mx-auto max-w-7xl">{children}</div>
         </main>
+
+        <footer className="border-t border-slate-100 px-4 py-4 md:px-6">
+          <div className="mx-auto flex max-w-7xl items-center justify-between">
+            <span className="text-xs font-medium text-slate-400">Supply Lens — Inventory & Supply Chain Management</span>
+            <span className="text-xs font-semibold text-indigo-600">© 2025 aiStreams LLC</span>
+          </div>
+        </footer>
       </div>
+
+      {/* Global Search Overlay */}
+      {searchOpen && (
+        <div className="fixed inset-0 z-[200] flex items-start justify-center pt-[12vh]">
+          <div className="fixed inset-0 bg-black/60 backdrop-blur-sm" onClick={() => { setSearchOpen(false); setSearchQuery(''); setSearchResults(null) }} />
+          <div className="relative z-10 w-full max-w-xl rounded-xl border border-slate-200 bg-white shadow-2xl">
+            <div className="flex items-center gap-3 border-b border-slate-100 px-4 py-3">
+              <Search size={18} className="text-slate-400" />
+              <input
+                ref={searchRef}
+                type="text"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                placeholder="Search products, orders, suppliers, SKUs..."
+                className="flex-1 bg-transparent text-sm text-slate-800 outline-none placeholder:text-slate-400"
+                autoFocus
+              />
+              <button type="button" onClick={() => { setSearchOpen(false); setSearchQuery(''); setSearchResults(null) }} className="text-slate-400 hover:text-slate-700">
+                <X size={16} />
+              </button>
+            </div>
+
+            <div className="max-h-[50vh] overflow-y-auto p-2">
+              {searching && <p className="px-3 py-6 text-center text-sm text-slate-400">Searching...</p>}
+              {!searching && searchResults && (
+                <div className="space-y-2">
+                  {searchResults.products.length > 0 && (
+                    <div>
+                      <p className="mb-1 px-3 text-[10px] font-semibold uppercase tracking-widest text-slate-400">Products</p>
+                      {searchResults.products.map((p) => (
+                        <button
+                          key={p.id}
+                          type="button"
+                          className="flex w-full items-center gap-3 rounded-lg px-3 py-2 text-left hover:bg-indigo-50"
+                          onClick={() => { navigate('/products'); setSearchOpen(false) }}
+                        >
+                          <Boxes size={14} className="text-indigo-500" />
+                          <div className="min-w-0 flex-1">
+                            <p className="truncate text-sm text-slate-800">{p.name}</p>
+                            <p className="text-xs text-slate-400">{p.sku} • ${Number(p.price || 0).toFixed(2)}</p>
+                          </div>
+                        </button>
+                      ))}
+                    </div>
+                  )}
+                  {searchResults.orders.length > 0 && (
+                    <div>
+                      <p className="mb-1 px-3 text-[10px] font-semibold uppercase tracking-widest text-slate-400">Orders</p>
+                      {searchResults.orders.map((o) => (
+                        <button
+                          key={o.id}
+                          type="button"
+                          className="flex w-full items-center gap-3 rounded-lg px-3 py-2 text-left hover:bg-indigo-50"
+                          onClick={() => { navigate('/orders'); setSearchOpen(false) }}
+                        >
+                          <ShoppingCart size={14} className="text-emerald-500" />
+                          <div className="min-w-0 flex-1">
+                            <p className="truncate text-sm text-slate-800">{o.orderNumber}</p>
+                            <p className="text-xs text-slate-400">{o.customer}</p>
+                          </div>
+                          <span className={`status-pill ${o.status === 'Completed' ? 'status-green' : 'status-amber'}`}>{o.status}</span>
+                        </button>
+                      ))}
+                    </div>
+                  )}
+                  {searchResults.suppliers.length > 0 && (
+                    <div>
+                      <p className="mb-1 px-3 text-[10px] font-semibold uppercase tracking-widest text-slate-400">Suppliers</p>
+                      {searchResults.suppliers.map((s) => (
+                        <button
+                          key={s.id}
+                          type="button"
+                          className="flex w-full items-center gap-3 rounded-lg px-3 py-2 text-left hover:bg-indigo-50"
+                          onClick={() => { navigate('/suppliers'); setSearchOpen(false) }}
+                        >
+                          <Building2 size={14} className="text-purple-500" />
+                          <div className="min-w-0 flex-1">
+                            <p className="truncate text-sm text-slate-800">{s.name}</p>
+                            <p className="text-xs text-slate-400">{s.email}</p>
+                          </div>
+                        </button>
+                      ))}
+                    </div>
+                  )}
+                  {searchResults.products.length === 0 && searchResults.orders.length === 0 && searchResults.suppliers.length === 0 && (
+                    <p className="py-8 text-center text-sm text-slate-400">No results for "{searchQuery}"</p>
+                  )}
+                </div>
+              )}
+              {!searching && !searchResults && (
+                <div className="px-2 py-3">
+                  <p className="mb-2 px-2 text-[10px] font-semibold uppercase tracking-widest text-slate-400">Quick nav</p>
+                  {menuItems.map((item) => {
+                    const Icon = item.icon
+                    return (
+                      <button
+                        key={item.path}
+                        type="button"
+                        className="flex w-full items-center gap-3 rounded-lg px-3 py-2 text-left hover:bg-indigo-50"
+                        onClick={() => { navigate(item.path); setSearchOpen(false) }}
+                      >
+                        <Icon size={14} className="text-slate-400" />
+                        <span className="text-sm text-slate-600">{item.name}</span>
+                      </button>
+                    )
+                  })}
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   )
 }

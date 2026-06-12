@@ -1,61 +1,124 @@
-# Supply Lens
+# Supply Lens — Intelligent Inventory & Supply Chain Management
 
-Supply Lens is a full-stack inventory and supply chain management demo platform built with React and Spring Boot. It provides a premium control-tower dashboard for tracking products, inventory levels, sales orders, purchase orders, suppliers, branch stock, and operational reports using public/demo data.
+A full-stack enterprise inventory management platform that provides real-time visibility into stock levels, order fulfillment, supplier performance, and operational analytics across multiple store branches.
+
+## Key Features
+
+- **Real-time Dashboard** — Live KPIs with auto-refreshing metrics, fulfillment tracking, and capacity monitoring
+- **Product Catalog** — 1,000+ SKUs with search, filtering, categorization, and stock management
+- **Multi-Branch Inventory** — Track stock levels, reorder points, and alerts across 15 store locations
+- **Order Management** — Sales order tracking with status workflows (Pending → Processing → Shipped → Delivered)
+- **Purchase Orders** — Supplier replenishment with delivery tracking and procurement analytics
+- **Supplier Network** — 30+ supplier profiles with ratings, lead times, and contact management
+- **Reports & Analytics** — Revenue trends, top products, category performance with Recharts visualizations
+- **Global Search** — Instant search across products, orders, and suppliers (⌘K)
+
+## Tech Stack
+
+### Backend
+- Java 17
+- Spring Boot 3.2
+- Spring Data JPA
+- Spring Security
+- MySQL 8 (H2 for quick start)
+- OpenCSV for data import
+- Swagger / OpenAPI documentation
+- Maven
+
+### Frontend
+- React 19
+- Vite 8
+- Tailwind CSS 3.4
+- Recharts (charts & analytics)
+- Axios (API client)
+- React Router 7
+- Zustand (state management)
+- Lucide React (icons)
+
+## Quick Start
+
+### Backend
+
+```bash
+cd inventory-management-system/backend
+mvn spring-boot:run
+```
+
+Backend runs at `http://localhost:8081`  
+Swagger docs: `http://localhost:8081/swagger-ui.html`  
+Health check: `http://localhost:8081/api/health`
+
+### Frontend
+
+```bash
+cd inventory-mangement-system-frontend/frontend
+npm install
+npm run dev
+```
+
+Frontend runs at `http://localhost:5173`
+
+## Deployment
+
+- **Frontend**: Deploy to Vercel from `inventory-mangement-system-frontend/frontend`
+- **Backend**: Deploy to Railway or Render from `inventory-management-system/backend`
+- Set `VITE_API_URL` environment variable on frontend to point to deployed backend URL
+
+### MySQL Configuration (Production)
+
+Set these environment variables on the backend:
+```
+SPRING_PROFILES_ACTIVE=mysql
+MYSQL_HOST=your-db-host
+MYSQL_PORT=3306
+MYSQL_DB=supply_lens
+MYSQL_USER=your-user
+MYSQL_PASSWORD=your-password
+```
 
 ## Project Structure
 
-```text
-inventory-management-system/backend
-inventory-mangement-system-frontend/frontend
+```
+Supply-Lens/
+├── inventory-management-system/backend/     # Spring Boot API
+│   ├── src/main/java/com/inventory/
+│   │   ├── config/          # Security, data loader
+│   │   ├── controller/      # REST API endpoints
+│   │   ├── dto/             # Request/Response DTOs
+│   │   ├── entity/          # JPA entities (11 tables)
+│   │   └── repository/      # Data access layer
+│   └── src/main/resources/
+│       ├── application.yml
+│       └── data/            # CSV seed data (24K+ records)
+│
+└── inventory-mangement-system-frontend/frontend/  # React SPA
+    └── src/
+        ├── components/      # Layout, Modal, AnimatedNumber
+        ├── pages/           # Dashboard, Products, Inventory, Orders, etc.
+        ├── services/        # API client
+        └── context/         # Auth store
+
 ```
 
-The backend and frontend live in the same repository but are deployed separately.
+## Database Schema (11 Tables)
 
-## Run Backend Locally
+| Table | Description |
+|-------|-------------|
+| products | SKUs, pricing, categories, reorder levels |
+| categories | Product categorization hierarchy |
+| inventory | Stock per product per branch |
+| store_branches | 15 physical store locations |
+| suppliers | Vendor profiles and performance |
+| purchase_orders | Supplier replenishment orders |
+| purchase_order_items | PO line items |
+| sales_orders | Customer orders |
+| sales_order_items | Order line items |
+| customers | Customer profiles |
+| users | System users with role-based access |
 
-```powershell
-cd "inventory-management-system/backend"
-& "C:\Users\saira\apache-maven-3.9.6\bin\mvn.cmd" spring-boot:run
-```
+## Built By
 
-Backend URL:
+**aiStreams LLC**
 
-```text
-http://localhost:8081
-```
-
-Health check:
-
-```text
-http://localhost:8081/api/health
-```
-
-Swagger:
-
-```text
-http://localhost:8081/swagger-ui.html
-```
-
-## Run Frontend Locally
-
-```powershell
-cd "inventory-mangement-system-frontend/frontend"
-npm.cmd install
-npm.cmd run dev -- --host 127.0.0.1 --port 5173
-```
-
-Frontend URL:
-
-```text
-http://localhost:5173
-```
-
-## Demo Mode
-
-Authentication is disabled for this public customer demo. The backend seeds an in-memory H2 database with demo products, inventory, branches, suppliers, customers, sales orders, purchase orders, and reporting data at startup.
-
-## Deployment Notes
-
-- Frontend can be deployed to Vercel from `inventory-mangement-system-frontend/frontend`.
-- Backend can be deployed to Railway or Render from `inventory-management-system/backend`.
-- Set frontend environment variable `VITE_API_URL` to the deployed backend API URL.
+**Developer:** Vamsi Krishna  
+Full-stack development — Java/Spring Boot backend services, MySQL database design, React.js frontend, system architecture, and deployment.

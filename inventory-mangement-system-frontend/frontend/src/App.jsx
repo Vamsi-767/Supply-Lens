@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
+import ToastContainer from './components/Toast'
 
 // Pages
-import Login from './pages/Login'
 import Dashboard from './pages/Dashboard'
 import Products from './pages/Products'
 import Inventory from './pages/Inventory'
@@ -13,22 +13,23 @@ import NotFound from './pages/NotFound'
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/login" element={<Login />} />
-        
-        <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/products" element={<Products />} />
-        <Route path="/inventory" element={<Inventory />} />
-        <Route path="/orders" element={<Orders />} />
-        <Route path="/purchase-orders" element={<PurchaseOrders />} />
-        <Route path="/suppliers" element={<Suppliers />} />
-        <Route path="/reports" element={<Reports />} />
-        
-        <Route path="/" element={<Navigate to="/dashboard" />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-    </Router>
+    <>
+      <Router>
+        <Routes>
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/inventory" element={<Inventory />} />
+          <Route path="/orders" element={<Orders />} />
+          <Route path="/purchase-orders" element={<PurchaseOrders />} />
+          <Route path="/suppliers" element={<Suppliers />} />
+          <Route path="/reports" element={<Reports />} />
+          
+          <Route path="/" element={<Navigate to="/dashboard" />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </Router>
+      <ToastContainer />
+    </>
   )
 }
 

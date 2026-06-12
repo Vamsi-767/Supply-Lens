@@ -121,9 +121,14 @@ public class DemoApiController {
     }
 
     @GetMapping("/categories")
-    public List<Category> categories() {
+    public List<Map<String, Object>> categories() {
         return categoryRepository.findAll().stream()
                 .sorted(Comparator.comparing(Category::getName))
+                .map(cat -> Map.<String, Object>of(
+                        "id", cat.getId(),
+                        "name", cat.getName(),
+                        "description", cat.getDescription() != null ? cat.getDescription() : ""
+                ))
                 .toList();
     }
 
