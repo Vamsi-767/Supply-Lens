@@ -36,7 +36,9 @@ public class SecurityConfig {
                 "https://*.vercel.app",
                 "https://*.netlify.app",
                 "https://*.railway.app",
-                "https://*.onrender.com"
+                "https://*.onrender.com",
+                "https://supplylens.io",
+                "https://www.supplylens.io"
         ));
         configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"));
         configuration.setAllowedHeaders(List.of("*"));
