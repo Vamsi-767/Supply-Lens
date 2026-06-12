@@ -226,7 +226,10 @@ export default function Layout({ children }) {
         <footer className="border-t border-slate-100 px-4 py-4 md:px-6">
           <div className="mx-auto flex max-w-7xl items-center justify-between">
             <span className="text-xs font-medium text-slate-400">Supply Lens — Inventory & Supply Chain Management</span>
-            <span className="text-xs font-semibold text-indigo-600">© 2025 aiStreams LLC</span>
+            <a href="https://aistreams.io" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-xs font-semibold text-indigo-600 hover:text-indigo-800 transition-colors">
+              <img src="https://aistreams.io/favicon.ico" alt="aiStreams" className="h-4 w-4 rounded" onError={(e) => { e.target.style.display = 'none' }} />
+              © 2025 aiStreams LLC
+            </a>
           </div>
         </footer>
       </div>
