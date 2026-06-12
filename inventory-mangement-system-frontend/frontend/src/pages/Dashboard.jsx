@@ -48,8 +48,8 @@ export default function Dashboard() {
 
   useEffect(() => {
     fetchDashboard()
-    // Auto-refresh every 10 seconds for real-time feel
-    const interval = setInterval(fetchDashboard, 10000)
+    // Refresh from API every 5 minutes (not every 10 seconds)
+    const interval = setInterval(fetchDashboard, 300000)
     return () => clearInterval(interval)
   }, [])
 

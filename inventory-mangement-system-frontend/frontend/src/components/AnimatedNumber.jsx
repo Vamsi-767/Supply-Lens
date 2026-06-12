@@ -1,50 +1,53 @@
 import { useEffect, useRef, useState } from 'react'
 
 /**
- * Animated counter — counts up on load, then small live increments every 20s
+ * Animated counter — counts up on first load, then adds $1 every 60 seconds
  */
 export default function AnimatedNumber({ value, prefix = '', suffix = '', duration = 1500, live = false }) {
   const [display, setDisplay] = useState(0)
   const [liveOffset, setLiveOffset] = useState(0)
   const animRef = useRef(null)
-  const prevValue = useRef(0)
+  const hasAnimated = useRef(false)
 
+  // Animate from 0 to value only on first mount
   useEffect(() => {
+    if (hasAnimated.current) return
+    hasAnimated.current = true
+
     const numValue = typeof value === 'number' ? value : parseFloat(String(value).replace(/[^0-9.-]/g, '')) || 0
-    const start = prevValue.current
-    const end = numValue
     const startTime = performance.now()
 
     const animate = (now) => {
       const elapsed = now - startTime
       const progress = Math.min(elapsed / duration, 1)
       const eased = 1 - Math.pow(1 - progress, 3)
-      const current = start + (end - start) * eased
-      setDisplay(current)
+      setDisplay(numValue * eased)
 
       if (progress < 1) {
         animRef.current = requestAnimationFrame(animate)
-      } else {
-        prevValue.current = end
       }
     }
 
     animRef.current = requestAnimationFrame(animate)
     return () => cancelAnimationFrame(animRef.current)
-  }, [value, duration])
+  }, [])
 
-  // Live: small $1-2 increment every 20 seconds (realistic for small business)
+  // Update display if API value changes (without re-animating from 0)
+  useEffect(() => {
+    if (hasAnimated.current) {
+      const numValue = typeof value === 'number' ? value : parseFloat(String(value).replace(/[^0-9.-]/g, '')) || 0
+      setDisplay(numValue)
+    }
+  }, [value])
+
+  // Live: add $1 every 60 seconds for revenue, +1 for counts
   useEffect(() => {
     if (!live) return
     const interval = setInterval(() => {
-      setLiveOffset((prev) => {
-        // Add $1-2 for revenue, or +1 for counts
-        const increment = suffix === '%' ? 0.1 : (prefix === '$' ? (1 + Math.random()) : 1)
-        return prev + increment
-      })
-    }, 20000)
+      setLiveOffset((prev) => prev + 1)
+    }, 60000)
     return () => clearInterval(interval)
-  }, [live, value, prefix, suffix])
+  }, [live])
 
   const finalValue = display + liveOffset
   const isDecimal = String(value).includes('.') || suffix === '%'
