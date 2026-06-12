@@ -60,7 +60,7 @@ public class CsvDataLoader implements CommandLineRunner {
 
         Map<String, Category> catCache = new HashMap<>();
         int loaded = 0;
-        int maxRows = 500;
+        int maxRows = 200;
 
         try (CSVReader reader = new CSVReader(new InputStreamReader(res.getInputStream()))) {
             String[] header = reader.readNext();
@@ -228,7 +228,7 @@ public class CsvDataLoader implements CommandLineRunner {
             Map<String, Integer> idx = index(header);
 
             String[] row;
-            while ((row = reader.readNext()) != null && poCount < 150) {
+            while ((row = reader.readNext()) != null && poCount < 50) {
                 String supplierName = safe(row, idx, "Supplier name", "Supplier_name", "supplier_name", "Supplier");
                 if (supplierName.isBlank()) continue;
                 if (supplierName.length() > 150) supplierName = supplierName.substring(0, 150);
@@ -423,7 +423,7 @@ public class CsvDataLoader implements CommandLineRunner {
 
         Random rng = new Random(42);
         int loaded = 0;
-        int maxOrders = 800;
+        int maxOrders = 300;
 
         try (CSVReader reader = new CSVReader(new InputStreamReader(ordersRes.getInputStream()))) {
             String[] header = reader.readNext();

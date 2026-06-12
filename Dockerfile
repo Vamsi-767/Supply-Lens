@@ -9,4 +9,4 @@ WORKDIR /app
 COPY --from=build /app/target/*.jar app.jar
 EXPOSE 8081
 ENV PORT=8081
-CMD ["java", "-jar", "app.jar"]
+CMD ["java", "-Xmx400m", "-Xms200m", "-jar", "app.jar"]
