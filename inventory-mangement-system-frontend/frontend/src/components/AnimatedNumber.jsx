@@ -40,11 +40,11 @@ export default function AnimatedNumber({ value, prefix = '', suffix = '', durati
     }
   }, [value])
 
-  // Live: add $1 every 60 seconds for revenue, +1 for counts
+  // Live: add small random amount every 60 seconds ($3-12 for revenue, 1-3 for counts)
   useEffect(() => {
     if (!live) return
     const interval = setInterval(() => {
-      setLiveOffset((prev) => prev + 1)
+      setLiveOffset((prev) => prev + Math.floor(Math.random() * 10) + 3)
     }, 60000)
     return () => clearInterval(interval)
   }, [live])
