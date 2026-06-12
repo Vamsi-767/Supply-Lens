@@ -19,7 +19,6 @@ import api from '../services/api'
 export default function Dashboard() {
   const navigate = useNavigate()
   const [stats, setStats] = useState(null)
-  const [lastUpdated, setLastUpdated] = useState(new Date())
   const [refreshing, setRefreshing] = useState(false)
   const [chartData, setChartData] = useState([])
 
@@ -42,7 +41,6 @@ export default function Dashboard() {
     api.get('/dashboard')
       .then((response) => {
         setStats(response.data)
-        setLastUpdated(new Date())
       })
       .catch(() => {})
       .finally(() => setRefreshing(false))
@@ -124,10 +122,6 @@ export default function Dashboard() {
           
           <div className="relative flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-between">
             <div className="max-w-2xl">
-              <div className="inline-flex items-center gap-2 rounded-full bg-white/20 px-3 py-1 text-xs font-bold mb-3">
-                <span className="live-pulse h-2 w-2 rounded-full bg-emerald-300" />
-                Live Platform
-              </div>
               <h2 className="text-2xl font-bold md:text-3xl">Inventory & Supply Chain Intelligence</h2>
               <p className="mt-3 text-sm leading-relaxed text-indigo-100 md:text-base">
                 Complete visibility into your business operations. Track products across 
@@ -153,11 +147,7 @@ export default function Dashboard() {
               <p className="mt-4 text-[10px] text-indigo-300/70 italic">* This demo uses publicly available datasets for demonstration purposes.</p>
             </div>
             <div className="flex shrink-0 flex-col items-end gap-3 text-right">
-              <div className="flex items-center gap-2">
-                <span className="live-pulse h-3 w-3 rounded-full bg-emerald-300 shadow-lg shadow-emerald-300/50" />
-                <span className="text-sm font-bold text-emerald-200">Live System</span>
-              </div>
-              <p className="text-xs text-indigo-200">All services operational</p>
+              <p className="text-xs text-indigo-200">Powered by aiStreams LLC</p>
             </div>
           </div>
         </section>
@@ -172,10 +162,6 @@ export default function Dashboard() {
             </p>
           </div>
           <div className="flex items-center gap-3">
-            <div className="flex items-center gap-2 text-xs text-slate-500">
-              <span className="live-pulse inline-block h-2 w-2 rounded-full bg-green-400" />
-              <span>Live • Updated {lastUpdated.toLocaleTimeString()}</span>
-            </div>
             <button
               type="button"
               className="action-ghost"
