@@ -212,8 +212,7 @@ export default function Layout({ children }) {
                 )}
               </div>
               <div className="hidden items-center gap-2 rounded-xl border border-emerald-200 bg-emerald-50 px-3 py-1.5 sm:flex">
-                <span className="live-pulse h-2 w-2 rounded-full bg-emerald-500" />
-                <span className="text-xs font-medium text-emerald-700">Live</span>
+                <span className="text-xs font-medium text-emerald-700">Online</span>
               </div>
             </div>
           </div>

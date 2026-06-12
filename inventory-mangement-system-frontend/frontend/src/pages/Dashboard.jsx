@@ -129,19 +129,19 @@ export default function Dashboard() {
               </p>
               <div className="mt-5 flex flex-wrap gap-2">
                 <button type="button" onClick={() => navigate('/inventory')} className="banner-chip border-white/30 bg-white/15 text-white hover:bg-white/25 hover:scale-105">
-                  📦 Inventory Tracking
+                  Inventory Tracking
                 </button>
                 <button type="button" onClick={() => navigate('/reports')} className="banner-chip border-white/30 bg-white/15 text-white hover:bg-white/25 hover:scale-105">
-                  📊 Analytics & Reports
+                  Analytics & Reports
                 </button>
                 <button type="button" onClick={() => navigate('/orders')} className="banner-chip border-white/30 bg-white/15 text-white hover:bg-white/25 hover:scale-105">
-                  🚚 Order Management
+                  Order Management
                 </button>
                 <button type="button" onClick={() => navigate('/suppliers')} className="banner-chip border-white/30 bg-white/15 text-white hover:bg-white/25 hover:scale-105">
-                  🤝 Supplier Network
+                  Supplier Network
                 </button>
                 <button type="button" onClick={() => navigate('/products')} className="banner-chip border-white/30 bg-white/15 text-white hover:bg-white/25 hover:scale-105">
-                  🏷️ Product Catalog
+                  Product Catalog
                 </button>
               </div>
               <p className="mt-4 text-[10px] text-indigo-300/70 italic">* This demo uses publicly available datasets for demonstration purposes.</p>
