@@ -1,8 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 
 /**
- * Animated counter that counts up to the target number
- * with optional prefix/suffix and live real-time updates
+ * Animated counter — counts up on load, then small live increments every 20s
  */
 export default function AnimatedNumber({ value, prefix = '', suffix = '', duration = 1500, live = false }) {
   const [display, setDisplay] = useState(0)
@@ -34,21 +33,18 @@ export default function AnimatedNumber({ value, prefix = '', suffix = '', durati
     return () => cancelAnimationFrame(animRef.current)
   }, [value, duration])
 
-  // Live: increment by small random amounts every 2-4 seconds
+  // Live: small $1-2 increment every 20 seconds (realistic for small business)
   useEffect(() => {
     if (!live) return
     const interval = setInterval(() => {
       setLiveOffset((prev) => {
-        const numValue = typeof value === 'number' ? value : parseFloat(String(value).replace(/[^0-9.-]/g, '')) || 0
-        // Add small increment (0.1% to 0.5% of value)
-        const increment = Math.max(1, numValue * (0.001 + Math.random() * 0.004))
-        // Sometimes subtract a tiny bit too for realism
-        const change = Math.random() > 0.3 ? increment : -increment * 0.3
-        return prev + change
+        // Add $1-2 for revenue, or +1 for counts
+        const increment = suffix === '%' ? 0.1 : (prefix === '$' ? (1 + Math.random()) : 1)
+        return prev + increment
       })
-    }, 2000 + Math.random() * 3000)
+    }, 20000)
     return () => clearInterval(interval)
-  }, [live, value])
+  }, [live, value, prefix, suffix])
 
   const finalValue = display + liveOffset
   const isDecimal = String(value).includes('.') || suffix === '%'

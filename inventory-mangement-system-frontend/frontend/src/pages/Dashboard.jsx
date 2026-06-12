@@ -130,9 +130,8 @@ export default function Dashboard() {
               </div>
               <h2 className="text-2xl font-bold md:text-3xl">Inventory & Supply Chain Intelligence</h2>
               <p className="mt-3 text-sm leading-relaxed text-indigo-100 md:text-base">
-                Complete visibility into your business operations. Track <strong className="text-white">1,000+ products</strong> across 
-                <strong className="text-white"> 15 locations</strong>, manage <strong className="text-white">800+ orders</strong>, 
-                coordinate with <strong className="text-white">30 suppliers</strong>, and make data-driven decisions with real-time analytics.
+                Complete visibility into your business operations. Track products across 
+                multiple locations, manage orders, coordinate with suppliers, and make data-driven decisions with real-time analytics.
               </p>
               <div className="mt-5 flex flex-wrap gap-2">
                 <button type="button" onClick={() => navigate('/inventory')} className="banner-chip border-white/30 bg-white/15 text-white hover:bg-white/25 hover:scale-105">
@@ -151,16 +150,14 @@ export default function Dashboard() {
                   🏷️ Product Catalog
                 </button>
               </div>
+              <p className="mt-4 text-[10px] text-indigo-300/70 italic">* This demo uses publicly available datasets for demonstration purposes.</p>
             </div>
             <div className="flex shrink-0 flex-col items-end gap-3 text-right">
-              <div className="rounded-xl bg-white/15 border border-white/20 p-4 backdrop-blur-sm">
-                <p className="text-2xl font-bold">$40K+</p>
-                <p className="text-xs text-indigo-200">Revenue Tracked</p>
+              <div className="flex items-center gap-2">
+                <span className="live-pulse h-3 w-3 rounded-full bg-emerald-300 shadow-lg shadow-emerald-300/50" />
+                <span className="text-sm font-bold text-emerald-200">Live System</span>
               </div>
-              <div className="rounded-xl bg-white/15 border border-white/20 p-4 backdrop-blur-sm">
-                <p className="text-2xl font-bold">15</p>
-                <p className="text-xs text-indigo-200">Store Branches</p>
-              </div>
+              <p className="text-xs text-indigo-200">All services operational</p>
             </div>
           </div>
         </section>
